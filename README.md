@@ -3,7 +3,7 @@
   - [About](#about)
   - [Course Description](#course-description)
   - [Schedule](#schedule)
-  - [Textbook](#textbook)
+  - [References](#references)
 
 # Machine Learning Applications in Actuarial Science and Risk Management
 ## About
@@ -23,9 +23,9 @@ We will begin each topic with an overview of the theoretical foundations of rele
 
 
 ## Schedule
-- Spring 2025: RMI 8450 (Online) Monday 7:15 pm - 9:45 pm
+- Spring 2025: RMI 8450 (Online) Monday 7:15 pm - 9:45 pm [[syllabus](./syllabus/rmi8450-2025-spring.pdf)]
 
-## Textbook
+## References
 We don't have a required textbook for this course. However, the following books are recommended for students who want to dive deeper into the topics covered in this course. I'll also highlight the chapters that are relevant to the topics we cover in class while we progress through the semester.
 - **Hands-On Machine Learning with Scikit-Learn and TensorFlow** O’Reilly Media, 3rd Edition by Aur´elien G´eron
   - Released October 2022
