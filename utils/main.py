@@ -32,6 +32,12 @@ def render_from_jinja_template(template_path, context):
 
 
 def create_folder_if_not_exists(folder_path):
+    """
+    Create a folder if it does not exist.
+
+    Args:
+    - folder_path (str): The path to the folder to create.
+    """
     if os.path.exists(folder_path) and os.path.isdir(folder_path):
         logger.info(f"Folder {folder_path} already exists.")
     else:
@@ -40,6 +46,12 @@ def create_folder_if_not_exists(folder_path):
 
 
 def create_file_if_not_exists(file_path, content):
+    """
+    Create a file if it does not exist.
+
+    Args:
+    - file_path (str): The path to the file to create.
+    """
     if os.path.exists(file_path) and os.path.isfile(file_path):
         logger.info(f"File {file_path} already exists.")
     else:
@@ -61,6 +73,15 @@ def generate_folders(
         bool, "Whether to generate a Jupyter notebook in the week folder."
     ] = False,
 ):
+    """
+    Generate the folder structure for a new week of the course.
+
+    Args:
+    - github_user_id (str): Your GitHub user ID.
+    - semester (str): The semester of the course.
+    - week (str): The week number, expecting a two-digit number.
+    - notebook (bool): Whether to generate a Jupyter notebook in the week folder.
+    """
     week_dir_path = f"./{semester}/week{week}"
     notebook_dir_path = f"{week_dir_path}/notebook"
     data_dir_path = f"{week_dir_path}/data"
