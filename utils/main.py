@@ -5,6 +5,29 @@ from typing_extensions import Annotated
 
 
 ######## Utility functions ########
+def render_from_jinja_template(template_path, context):
+    """
+    Render a Jinja template with the given context.
+
+    Args:
+    - template_path (str): The path to the Jinja template file.
+    - context (dict): The context to render the template with.
+        Example:
+        {
+            "course_name": "machine-learning-for-actuarial-science",
+            "semester": "2025-spring",
+            "week": "01",
+        }
+
+    Returns:
+    - tuple: A tuple containing the rendered README and notebook content.
+    """
+    env = Environment(loader=FileSystemLoader(template_path))
+    readme_template = env.get_template("readme_template.j2")
+    notebook_template = env.get_template("notebook_template.j2")
+    return readme_template.render(context), notebook_template.render(context)
+
+
 def create_folder_if_not_exists(folder_path):
     if os.path.exists(folder_path) and os.path.isdir(folder_path):
         print(f"Folder {folder_path} already exists.")
@@ -45,12 +68,22 @@ def generate_folders(
     create_folder_if_not_exists(week_dir_path)
     create_folder_if_not_exists(data_dir_path)
     create_folder_if_not_exists(pics_dir_path)
-    create_file_if_not_exists(
-        readme_file_path, f"# Week {week}\n\nThis week's content."
+
+    print("Generating README and notebook content...")
+    template_path = os.path.join(os.getcwd(), "utils")
+    readme_content, notebook_content = render_from_jinja_template(
+        template_path,
+        {
+            "course_name": "machine-learning-for-actuarial-science",
+            "semester": semester,
+            "week": week,
+        },
     )
+
+    create_file_if_not_exists(readme_file_path, readme_content)
     if notebook:
         create_folder_if_not_exists(notebook_dir_path)
-        create_file_if_not_exists(notebook_file_path, "")
+        create_file_if_not_exists(notebook_file_path, notebook_content)
 
 
 if __name__ == "__main__":
