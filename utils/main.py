@@ -2,8 +2,11 @@ from jinja2 import Environment, FileSystemLoader
 import os
 import typer
 from typing_extensions import Annotated
+import logging
 
-
+# Configure the logger
+logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(name)s - %(levelname)s - %(message)s")
+logger = logging.getLogger(__name__)
 ######## Utility functions ########
 def render_from_jinja_template(template_path, context):
     """
@@ -30,19 +33,19 @@ def render_from_jinja_template(template_path, context):
 
 def create_folder_if_not_exists(folder_path):
     if os.path.exists(folder_path) and os.path.isdir(folder_path):
-        print(f"Folder {folder_path} already exists.")
+        logger.info(f"Folder {folder_path} already exists.")
     else:
         os.makedirs(folder_path)
-        print(f"Folder {folder_path} created.")
+        logger.info(f"Folder {folder_path} created.")
 
 
 def create_file_if_not_exists(file_path, content):
     if os.path.exists(file_path) and os.path.isfile(file_path):
-        print(f"File {file_path} already exists.")
+        logger.info(f"File {file_path} already exists.")
     else:
         with open(file_path, "w") as f:
             f.write(content)
-        print(f"File {file_path} created.")
+        logger.info(f"File {file_path} created.")
 
 
 ######## CLI ########
@@ -70,7 +73,7 @@ def generate_folders(
     create_folder_if_not_exists(data_dir_path)
     create_folder_if_not_exists(pics_dir_path)
 
-    print("Generating README and notebook content...")
+    logger.info("Generating README and notebook content...")
     template_path = os.path.join(os.getcwd(), "utils")
     readme_content, notebook_content = render_from_jinja_template(
         template_path,
