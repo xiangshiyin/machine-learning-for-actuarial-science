@@ -51,6 +51,7 @@ app = typer.Typer()
 
 @app.command()
 def generate_folders(
+    github_user_id: Annotated[str, "Your GitHub user ID."],
     semester: Annotated[str, "The semester of the course."],
     week: Annotated[str, "The week number, expecting a two-digit number."],
     notebook: Annotated[
@@ -77,6 +78,7 @@ def generate_folders(
             "course_name": "machine-learning-for-actuarial-science",
             "semester": semester,
             "week": week,
+            "github_user_id": github_user_id,
         },
     )
 
