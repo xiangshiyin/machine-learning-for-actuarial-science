@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "utils"
+version = "0.1.0"
+description = "RMI 8450 @ GSU"
+authors = ["Xiangshi Yin <piupiuyin@gmail.com>"]
+license = "apache"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+jinja2 = "^3.1.4"
+typer = {extras = ["all"], version = "^0.12.5"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+utils = "utils.generate_folders:app"
