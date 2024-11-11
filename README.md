@@ -21,6 +21,8 @@ In this course, we will explore the application of machine learning algorithms i
 
 We will begin each topic with an overview of the theoretical foundations of relevant statistical and machine learning models. Discussions will cover the pros and cons of each model, best practices for model selection and evaluation, and case studies demonstrating their real-world applications. For some classical models, we will also implement key algorithms from scratch to deepen our understanding. This approach aims to provide students with a comprehensive grasp of both the theoretical and practical aspects of these models.
 
+- <a href="https://nbviewer.jupyter.org/github/xiangshiyin/machine-learning-for-actuarial-science/blob/main/index.ipynb"><img src="https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg" alt="Render nbviewer" /></a> - to view the notebooks on `nbviewer`
+
 
 ## Schedule
 - Spring 2025: RMI 8450 (Online) Monday 7:15 pm - 9:45 pm [[syllabus](./syllabus/rmi8450-2025-spring.pdf)]
