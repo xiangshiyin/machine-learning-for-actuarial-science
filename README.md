@@ -9,18 +9,6 @@
 ## About
 This site is a collection of resources for the course `Machine Learning Applications in Actuarial Science and Risk Management`. Please refer to the course syllabus for more information on the course content and schedule. 
 
-## Course Description
-In this course, we will explore the application of machine learning algorithms in actuarial science and risk management through common use cases such as:
-
-- Time series modeling
-- Marketing campaign predictions
-- Insurance claim predictions
-- Credit risk modeling
-- Operational risk modeling and fraud detection
-- Natural Language Processing (NLP) and information extraction
-
-We will begin each topic with an overview of the theoretical foundations of relevant statistical and machine learning models. Discussions will cover the pros and cons of each model, best practices for model selection and evaluation, and case studies demonstrating their real-world applications. For some classical models, we will also implement key algorithms from scratch to deepen our understanding. This approach aims to provide students with a comprehensive grasp of both the theoretical and practical aspects of these models.
-
 ---
 
 <table>
@@ -37,11 +25,27 @@ We will begin each topic with an overview of the theoretical foundations of rele
 <td>Notebooks</td>
 <td><a href="https://nbviewer.jupyter.org/github/xiangshiyin/machine-learning-for-actuarial-science/blob/main/index.ipynb"><img src="https://img.shields.io/badge/notebook-nbviewer-orange"></a></td>
 </tr>
+<tr>
+<td>Docs</td>
+<td><a href="./docs/"><img src="https://img.shields.io/badge/documentations-orange"></a></td>
+</tr>
 
 </tbody>
 </table>
 
 ---
+
+## Course Description
+In this course, we will explore the application of machine learning algorithms in actuarial science and risk management through common use cases such as:
+
+- Time series modeling
+- Marketing campaign predictions
+- Insurance claim predictions
+- Credit risk modeling
+- Operational risk modeling and fraud detection
+- Natural Language Processing (NLP) and information extraction
+
+We will begin each topic with an overview of the theoretical foundations of relevant statistical and machine learning models. Discussions will cover the pros and cons of each model, best practices for model selection and evaluation, and case studies demonstrating their real-world applications. For some classical models, we will also implement key algorithms from scratch to deepen our understanding. This approach aims to provide students with a comprehensive grasp of both the theoretical and practical aspects of these models.
 
 ## Schedule
 - Spring 2025: RMI 8450 (Online) Monday 7:15 pm - 9:45 pm
