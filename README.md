@@ -2,7 +2,6 @@
 - [Machine Learning Applications in Actuarial Science and Risk Management](#machine-learning-applications-in-actuarial-science-and-risk-management)
   - [About](#about)
   - [Course Description](#course-description)
-    - [Code and Notebooks](#code-and-notebooks)
   - [Schedule](#schedule)
   - [References](#references)
 
@@ -22,12 +21,30 @@ In this course, we will explore the application of machine learning algorithms i
 
 We will begin each topic with an overview of the theoretical foundations of relevant statistical and machine learning models. Discussions will cover the pros and cons of each model, best practices for model selection and evaluation, and case studies demonstrating their real-world applications. For some classical models, we will also implement key algorithms from scratch to deepen our understanding. This approach aims to provide students with a comprehensive grasp of both the theoretical and practical aspects of these models.
 
-### Code and Notebooks
-- Notebooks and code examples could be viewed via <a href="https://nbviewer.jupyter.org/github/xiangshiyin/machine-learning-for-actuarial-science/blob/main/index.ipynb"><img src="https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg" alt="Render nbviewer" /></a>
+---
 
+<table>
+<tbody>
+<tr>
+<td>Latest Version</td>
+<td><a href="https://github.com/xiangshiyin/machine-learning-for-actuarial-science/tree/main/2025-spring"><img src="https://img.shields.io/badge/semester-2025_spring-green"></a></td>
+</tr>
+<tr>
+<td>Latest Syllabus</td>
+<td><a href="./syllabus/rmi8450-2025-spring.pdf"><img src="https://img.shields.io/badge/semester-2025_spring-green"></a></td>
+</tr>
+<tr>
+<td>Notebooks</td>
+<td><a href="https://nbviewer.jupyter.org/github/xiangshiyin/machine-learning-for-actuarial-science/blob/main/index.ipynb"><img src="https://img.shields.io/badge/notebook-nbviewer-orange"></a></td>
+</tr>
+
+</tbody>
+</table>
+
+---
 
 ## Schedule
-- Spring 2025: RMI 8450 (Online) Monday 7:15 pm - 9:45 pm [[syllabus](./syllabus/rmi8450-2025-spring.pdf)]
+- Spring 2025: RMI 8450 (Online) Monday 7:15 pm - 9:45 pm
 
 ## References
 We don't have a required textbook for this course. However, the following books are recommended for students who want to dive deeper into the topics covered in this course. I'll also highlight the chapters that are relevant to the topics we cover in class while we progress through the semester.
