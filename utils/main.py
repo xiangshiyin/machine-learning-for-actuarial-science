@@ -5,8 +5,12 @@ from typing_extensions import Annotated
 import logging
 
 # Configure the logger
-logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(name)s - %(levelname)s - %(message)s")
+logging.basicConfig(
+    level=logging.INFO, format="%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+)
 logger = logging.getLogger(__name__)
+
+
 ######## Utility functions ########
 def render_from_jinja_template(template_path, context):
     """
@@ -64,24 +68,29 @@ def create_file_if_not_exists(file_path, content):
 app = typer.Typer()
 
 
-@app.command()
+@app.command(help="Generate the folder structure for a new week of the course.")
 def generate_folders(
-    github_user_id: Annotated[str, "Your GitHub user ID."],
-    semester: Annotated[str, "The semester of the course."],
-    week: Annotated[str, "The week number, expecting a two-digit number."],
+    github_user_id: Annotated[
+        str, typer.Argument(help="Your GitHub user ID.", show_default=False)
+    ],
+    semester: Annotated[
+        str,
+        typer.Argument(
+            help="The semester of the course. Example: 2025-spring.", show_default=False
+        ),
+    ],
+    week: Annotated[
+        str,
+        typer.Argument(
+            help="The week number, expecting a two-digit number. Example: 01.",
+            show_default=False,
+        ),
+    ],
     notebook: Annotated[
-        bool, "Whether to generate a Jupyter notebook in the week folder."
+        bool,
+        typer.Option(help="Whether to generate a Jupyter notebook in the week folder."),
     ] = False,
 ):
-    """
-    Generate the folder structure for a new week of the course.
-
-    Args:
-    - github_user_id (str): Your GitHub user ID.
-    - semester (str): The semester of the course.
-    - week (str): The week number, expecting a two-digit number.
-    - notebook (bool): Whether to generate a Jupyter notebook in the week folder.
-    """
     week_dir_path = f"./{semester}/week{week}"
     notebook_dir_path = f"{week_dir_path}/notebook"
     data_dir_path = f"{week_dir_path}/data"
