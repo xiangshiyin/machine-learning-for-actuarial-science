@@ -9,6 +9,7 @@
       - [`Anaconda` \[Recommended\]](#anaconda-recommended)
       - [`Python` and `Pip` \[Intermediate Users\]](#python-and-pip-intermediate-users)
       - [`Python` and `Poetry` \[Advanced Users\]](#python-and-poetry-advanced-users)
+      - [`Docker` \[If you are interested in containerization\]](#docker-if-you-are-interested-in-containerization)
   - [IDE Setup](#ide-setup)
   - [Online Coding Environment](#online-coding-environment)
 
@@ -83,6 +84,27 @@ If you prefer to set up a Python environment from scratch, you can install Pytho
     ```bash
     poetry run jupyter notebook
     ```
+
+#### `Docker` [If you are interested in containerization]
+>>The first time you run the Docker container, it will download the image from the Docker Hub, which may take some time depending on your internet connection speed. Subsequent runs will be faster as the image will be cached on your machine.
+1. Install Docker Desktop from the [official Docker website](https://www.docker.com/products/docker-desktop).
+2. Clone this repository to your local machine.
+3. Navigate to the root directory of the repository and run the following command
+    ```bash
+    docker run -it --rm -p 8888:8888 -v "${PWD}":/home/jovyan/work jupyter/scipy-notebook
+    ```
+4. Open the Jupyter Notebook in your browser by following the instructions in the terminal.
+5. When you are done, stop the Docker container by pressing `Ctrl+C` in the terminal.
+6. You can also run the Docker container in the background by running the following command:
+    ```bash
+    docker run -d --rm -p 8888:8888 -v "${PWD}":/home/jovyan/work jupyter/scipy-notebook
+    ```
+7. To stop the Docker container running in the background, run the following command:
+    ```bash
+    docker ps
+    docker stop <CONTAINER_ID>
+    ```
+    - Replace `<CONTAINER_ID>` with the actual container ID from the output of the `docker ps` command.
 
 ## IDE Setup
 In addition to Jupyter Notebook, you may also want to set up an Integrated Development Environment (IDE) for writing and running Python code, such as [Visual Studio Code](https://code.visualstudio.com/). In fact, you could use Jupyter Notebook within Visual Studio Code by installing the [Jupyter extension](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter) ([check here](https://code.visualstudio.com/docs/python/jupyter-support-py) for more details).
