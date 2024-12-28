@@ -7,6 +7,7 @@
     - [General Requirements](#general-requirements)
     - [Installations](#installations)
       - [`Anaconda` \[Recommended\]](#anaconda-recommended)
+      - [`Python` and `Pip` \[Intermediate Users\]](#python-and-pip-intermediate-users)
       - [`Python` and `Poetry` \[Advanced Users\]](#python-and-poetry-advanced-users)
   - [IDE Setup](#ide-setup)
   - [Online Coding Environment](#online-coding-environment)
@@ -24,6 +25,27 @@ In order to run the code examples in this repository, you need to set up a Pytho
 ### Installations
 #### `Anaconda` [Recommended]
 The easiest way to set up a Python environment is to install the [Anaconda Distribution](https://www.anaconda.com/download/success), which comes with all common libraries and tools for data science and machine learning and the Python executable. This should be sufficient for most of the code examples in this repository. Please make sure to choose the correct version for your operating system.
+
+#### `Python` and `Pip` [Intermediate Users]
+If you prefer to set up a Python environment from scratch, you can install Python and the necessary libraries using the `pip` package manager. Below are the steps.
+1. Install Python 3.9 or later from the [official Python website](https://www.python.org/downloads/).
+   - You can also use `pyenv` to manage multiple Python versions on your machine https://github.com/pyenv/pyenv
+2. To install the current version of the required libraries, run the following command in your terminal:
+
+    ```bash
+    pip install -r https://raw.githubusercontent.com/xiangshiyin/machine-learning-for-actuarial-science/refs/heads/main/requirements.txt
+    ```
+3. To start the Jupyter Notebook server, run the following command in your terminal:
+
+    ```bash
+    jupyter notebook
+    ```
+4. Open the Jupyter Notebook in your browser and navigate to the desired notebook file to run the code examples.
+5. When you are done, deactivate the virtual environment:
+
+    ```bash
+    exit
+    ```
 
 #### `Python` and `Poetry` [Advanced Users]
 If you prefer to set up a Python environment from scratch, you can install Python and the necessary libraries using the `Poetry` package manager. Below are the steps to set up the environment using `Poetry`.

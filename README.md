@@ -27,7 +27,7 @@ This site is a collection of resources for the course `Machine Learning Applicat
 </tr>
 <tr>
 <td>Docs</td>
-<td><a href="./docs/"><img src="https://img.shields.io/badge/documentations-orange"></a></td>
+<td><a href="./docs/environment.md"><img src="https://img.shields.io/badge/environment_setup-blue"></a></td>
 </tr>
 
 </tbody>
