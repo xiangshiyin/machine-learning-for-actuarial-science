@@ -1,0 +1,15 @@
+## Supervised Learning
+In supervised learning, you usually have an input $X$, which goes to your prediction function and get your output $\hat{Y}$. You can then compare your prediction with the true value $Y$, and this gives you the the cost which you use to update the parameter $\theta$ of your model.
+
+### Numeric Representation of Text
+There are a couple of ways to represent text information by numbers for sentiment analysis. Some of the basic methods include:
+- One-hot encoding
+  - This is the simplest way to represent text information. You can represent each word in your vocabulary by a vector of zeros and a single one. The length of the vector is the size of your vocabulary.
+- Positive/Negative word frequency mapping
+  - Use the frequency of a word in positive and negative corpus to represent the word.
+- TBD
+
+### Preprocessing Techniques
+Depends on the actual modeling method, you may need to preprocess the text data following different strategies. Here are some classic preprocessing techniques:
+- Tokenization - This typically involves stop word removal, stemming, and lemmatization. However, with the deep learning models especially the transformer models, you may not need to do this since the text info removed by these techniques may provide useful context information for the language model.
+- TBD
