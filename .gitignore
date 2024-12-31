@@ -170,3 +170,5 @@ cython_debug/
 *.fdb_latexmk
 *.synctex.gz
 .DS_Store
+
+.codegpt

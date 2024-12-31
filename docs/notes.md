@@ -23,4 +23,7 @@ There are many ways to model the sentiment analysis problem. Some of the classic
     - $\partial_{\theta_j}J = \frac{1}{m} \sum^{m}_{i=1}(h(x^{(i)}, \theta) - y^{(i)})x^{(i)}_j$
     - $\theta_{n+1} = \theta_{n} - \alpha \partial_{\theta}J(\theta_{n})$
     - In vector representation, the gradient formular can be written as $\nabla_{\theta}J = \frac{1}{m}X^T(h(X, \theta) - Y)$
-- 
+- Naive Bayes
+  - $log\_likelihood = log(\frac{P(+)}{P(-)} \prod_{i=1}^{m} \frac{P(w_i|+)}{P(w_i|-)})$. We need the log function to avoid underflow.
+  - $\lambda(w_i) = log \frac{P(w_i|+)}{P(w_i|-)}$
+  - Laplacian smoothing: $P(w_i|c) = \frac{count(w_i, c) + 1}{count(c) + |V|}$, where $V$ is the vocabulary size. This is to avoid zero probability for unseen words.
