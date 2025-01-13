@@ -18,6 +18,8 @@ Please follow the instructions [here](../../docs/environment.md) to set up your 
 
 
 ## Topics
+Python is a versatile programming language that is widely used in data science and machine learning applications. In this course, we will use Python as the primary programming language.
+
 Here are the topics we are going to cover
 * [ ] The role of Python in machine learning workflows
 * [ ] Python basics Refresher
