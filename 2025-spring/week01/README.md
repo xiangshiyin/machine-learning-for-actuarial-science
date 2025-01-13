@@ -27,9 +27,9 @@ Here are the topics we are going to cover
 
 
 ## Course materials
-* slides [[link](TBD)]
+* slides [[link](https://docs.google.com/presentation/d/1LwK-DTF2uxP-pafQ0k-XWyPdcQs6u2ECkJKwR6f6Ca4/edit?usp=sharing)]
 
 # Suggested reading
-* TBD
-* Online resources
-* TBD
+* Course syllabus [[link](../../syllabus/rmi8450-2025-spring.pdf)]
+* Instructions to set up your Python environment [[link](../../docs/environment.md)]
+* Materials for `MSA 8010` [[link](https://github.com/xiangshiyin/data-programming-with-python)] - in case you need to refresh some memory on Python based data programming
