@@ -1,8 +1,8 @@
-# Week 03: The Title
+# Week 03: Machine Learning Basics
 ---
 
 **Table of Content**
-- [Week 03: The Title](#week-03-the-title)
+- [Week 03: Machine Learning Basics](#week-03-machine-learning-basics)
   - [Objectives](#objectives)
   - [Topics](#topics)
   - [Course materials](#course-materials)
@@ -10,17 +10,19 @@
 
 ---
 ## Objectives
-
+In this week, we will discuss about the basics of machine learning, including the different types of machine learning algorithms and their applications in different scenarios.
 
 ## Topics
 Here are the topics we are going to cover
-* [ ] TBD
+* [ ] Machine learning from 10,000 feet
+* [ ] Case study: Recognizing hand-written digits
+* [ ] Types of machine learning algorithms and their applications
 
 
 ## Course materials
 * slides [[link](TBD)]
 
 ## Suggested reading
-* TBD
+* **Chapter 1** of the book "*Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems*"
+* **Chapter 2** of the book "*Introduction to Statistical Learning with Applications in Python*"
 * Online resources
-* TBD
