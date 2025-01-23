@@ -26,3 +26,4 @@ Here are the topics we are going to cover
 * **Chapter 1** of the book "*Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems*"
 * **Chapter 2** of the book "*Introduction to Statistical Learning with Applications in Python*"
 * Online resources
+  * Derive the gradient of the cross-entropy loss function [[link](https://towardsdatascience.com/derivative-of-the-softmax-function-and-the-categorical-cross-entropy-loss-ffceefc081d1)]
