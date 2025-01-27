@@ -20,7 +20,7 @@ Here are the topics we are going to cover
 
 
 ## Course materials
-* slides [[link](TBD)]
+* slides [[link](https://docs.google.com/presentation/d/1FE2GVA-hmympPN_PnI01Zz_PRq-rP1Tvlecl1zlqx7Y/edit?usp=sharing)]
 
 ## Suggested reading
 * **Chapter 1** of the book "*Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems*"
