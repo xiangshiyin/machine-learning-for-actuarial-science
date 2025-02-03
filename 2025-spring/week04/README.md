@@ -40,3 +40,4 @@ Below are some recommended book chapters that provide insightful explanations on
 * Boosting Insights in Insurance Tariff Plans with Tree-Based Machine Learning Methods [[link](https://www.tandfonline.com/doi/full/10.1080/10920277.2020.1745656)]
 * A data driven binning strategy for the construction of insurance tariﬀ classes [[link](https://www.webofscience.com/wos/alldb/full-record/WOS:000444817300002)]
 * Interpreting Black-Box Models: A Review on Explainable Artificial Intelligence [[link](https://link.springer.com/article/10.1007/s12559-023-10179-8#:~:text=A%20black%2Dbox%20model%20in,not%20easily%20accessible%20or%20interpretable.)]
+* A gentle introduction to Splines [[link](https://joshua-nugent.github.io/splines/)]
