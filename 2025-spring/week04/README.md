@@ -18,6 +18,9 @@ Here are the topics we are going to cover
 * [ ] Machine Learning vs. Actuarial Science - the methodologies, principles, and opportunities
 * [ ] Can we explain ML models?
   * [ ] Example - Tree based models
+    * [ ] Generalized Linear Model (**GLM**) $\eta = g(\mu) = z^T \beta = \beta_0 + \sum_{i=1}^D \beta_i z_i$
+    * [ ] Generalized Additive Model (**GAM**) $g(\mu) = \beta_0 + f_1(x_1) + f_2(x_2) + ... + f_D(x_D)$
+    * [ ] Tree-base models (Decision Tree, Regression Tree, etc.)
   * [ ] General approaches - What's possible?
 
 
