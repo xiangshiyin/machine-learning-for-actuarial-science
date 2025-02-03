@@ -7,6 +7,8 @@
   - [Topics](#topics)
   - [Course materials](#course-materials)
   - [Suggested reading](#suggested-reading)
+    - [Logistic Regression and Generalized Linear Models](#logistic-regression-and-generalized-linear-models)
+    - [Decision Trees](#decision-trees)
   - [References](#references)
 
 ---
@@ -29,7 +31,12 @@ Here are the topics we are going to cover
 
 ## Suggested reading
 Below are some recommended book chapters that provide insightful explanations on tree-based models (pick one that's accessible):
-* Chapter 6 of *Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow, 3rd Edition*
+
+### Logistic Regression and Generalized Linear Models
+* Chapter 4 of *Introduction to Statistical Learning in Python*
+
+### Decision Trees
+* Chapter 6 of *Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow, 3rd Edition* 
 * Chapter 8 of *Introduction to Statistical Learning in Python*
 * Chapter 4 of *Fundamentals of Machine Learning for Predictive Data Analytics*
 
@@ -41,3 +48,6 @@ Below are some recommended book chapters that provide insightful explanations on
 * A data driven binning strategy for the construction of insurance tariﬀ classes [[link](https://www.webofscience.com/wos/alldb/full-record/WOS:000444817300002)]
 * Interpreting Black-Box Models: A Review on Explainable Artificial Intelligence [[link](https://link.springer.com/article/10.1007/s12559-023-10179-8#:~:text=A%20black%2Dbox%20model%20in,not%20easily%20accessible%20or%20interpretable.)]
 * A gentle introduction to Splines [[link](https://joshua-nugent.github.io/splines/)]
+* Other readings
+  * Introduction to GLMs [[link](https://online.stat.psu.edu/stat504/lesson/6/6.1)]
+  * Introduction to GAMs [[link](https://m-clark.github.io/generalized-additive-models/introduction.html)]
