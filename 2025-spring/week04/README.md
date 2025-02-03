@@ -30,7 +30,7 @@ Here are the topics we are going to cover
 * slides [[link](https://docs.google.com/presentation/d/1HpfN628BOZYSKeQhYkdcT4Kn1okLSNzIYWhlrSx2gjE/edit?usp=sharing)]
 
 ## Suggested reading
-Below are some recommended book chapters that provide insightful explanations on tree-based models (pick one that's accessible):
+Below are some recommended book chapters that provide insightful explanations on generalized linear models and tree-based models (pick one that's accessible):
 
 ### Logistic Regression and Generalized Linear Models
 * Chapter 4 of *Introduction to Statistical Learning in Python*
