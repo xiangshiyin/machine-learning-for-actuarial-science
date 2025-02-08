@@ -6,7 +6,7 @@
   - [Objectives](#objectives)
   - [Topics](#topics)
   - [Course materials](#course-materials)
-  - [Suggested reading](#suggested-reading)
+  - [References](#references)
 
 ---
 ## Objectives
@@ -21,7 +21,6 @@ Here are the topics we are going to cover
 ## Course materials
 * slides [[link](TBD)]
 
-## Suggested reading
-* TBD
-* Online resources
-* TBD
+## References
+* Kaggle competition on the Titanic dataset [[link](https://www.kaggle.com/competitions/titanic)]
+* 
