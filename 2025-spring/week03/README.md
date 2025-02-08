@@ -14,11 +14,11 @@ In this week, we will discuss about the basics of machine learning, including th
 
 ## Topics
 Here are the topics we are going to cover
-* [ ] Machine learning from 10,000 feet
-  * [ ] Essentially we are estimating a function $\hat f(x)$ from a set of data $(x, y)$ so it is a good approximation of the true function $f(x)$ where $Y = f(x) + \epsilon$
-  * [ ] Gradient descent: $\theta = \theta - \alpha \nabla \theta$
-* [ ] Case study: Recognizing hand-written digits
-* [ ] Types of machine learning algorithms and their applications
+* [x] Machine learning from 10,000 feet
+  * [x] Essentially we are estimating a function $\hat f(x)$ from a set of data $(x, y)$ so it is a good approximation of the true function $f(x)$ where $Y = f(x) + \epsilon$
+  * [x] Gradient descent: $\theta = \theta - \alpha \nabla \theta$
+* [x] Case study: Recognizing hand-written digits
+* [x] Types of machine learning algorithms and their applications
 
 
 ## Course materials

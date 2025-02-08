@@ -4,7 +4,7 @@
 | 02   | 2025-01-20 | (No Class) *Martin Luther King Jr. Day*     |                   |
 | 03   | 2025-01-27 | Machine Learning Basics                     | [link](./week03/) |
 | 04   | 2025-02-03 | Actuarial Science and Machine Learning      | [link](./week04/) |
-| 05   | 2025-02-10 | Data Exploration and Feature Engineering    |                   |
+| 05   | 2025-02-10 | Data Exploration and Feature Engineering    | [link](./week05/) |
 | 06   | 2025-02-17 | Evaluating Model Performance                |                   |
 | 07   | 2025-02-24 | Time Series Modeling                        |                   |
 | 08   | 2025-03-03 | Credit Risk Modeling                        |                   |
