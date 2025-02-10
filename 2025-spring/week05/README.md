@@ -10,7 +10,7 @@
 
 ---
 ## Objectives
-In this class, we will delve into the critical processes of data exploration and feature engineering within the context of machine learning. Our focus will be on understanding how to effectively analyze and transform raw data to enhance model performance.
+For week 5 and week 6, we will delve into the critical processes of data preparations and model evaluations within the contxt of machine learning modeling. In this class (week 5), we will delve into the critical processes of data exploration and feature engineering within the context of machine learning. Our focus will be on understanding how to effectively analyze and transform raw data to enhance model performance.
 
 ## Topics
 Here are the topics we are going to cover
