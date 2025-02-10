@@ -5,7 +5,6 @@
 - [Week 05: Data Exploration and Feature Engineering](#week-05-data-exploration-and-feature-engineering)
   - [Objectives](#objectives)
   - [Topics](#topics)
-    - [Notes](#notes)
   - [Course materials](#course-materials)
   - [References](#references)
 
@@ -18,20 +17,10 @@ Here are the topics we are going to cover
 * [ ] **Data Exploration** - We will examine the techniques for summarizing datasets, identifying patterns, and detecting anomalies.
 * [ ] **Feature Engineering** - We will explore methods to create meaningful features from raw data, such as encoding categorical variables, scaling numerical features, and generating new features from existing ones (including interaction terms, etc.)
 
-### Notes
-- Quick intro into pandas dataframe and basic dataframe operations
-- Data explorations
-- Outlier handling
-- Missing values
-- Feature engineering
-  - Categorical variable
-  - Numerical variable
-  - Constructing new features
-- 
-
 ## Course materials
 * slides [[link](TBD)]
 
 ## References
 * Chapter 2 of *Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow, 3rd Edition*
+* `scikit-learn`'s introduction to data transformations [[link](https://scikit-learn.org/stable/data_transforms.html)]
 * Kaggle competition on the Titanic dataset [[link](https://www.kaggle.com/competitions/titanic)]
