@@ -18,7 +18,7 @@ Here are the topics we are going to cover
 * [ ] **Feature Engineering** - We will explore methods to create meaningful features from raw data, such as encoding categorical variables, scaling numerical features, and generating new features from existing ones (including interaction terms, etc.)
 
 ## Course materials
-* slides [[link](TBD)]
+* slides [[link](https://docs.google.com/presentation/d/18DgVRm_W9wDZmyV_sTMqh-bYU-Ak_Ln7OfteWp2Lyk8/edit?usp=sharing)]
 
 ## References
 * Chapter 2 of *Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow, 3rd Edition*
