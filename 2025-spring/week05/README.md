@@ -22,5 +22,5 @@ Here are the topics we are going to cover
 * slides [[link](TBD)]
 
 ## References
+* Chapter 2 of *Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow, 3rd Edition*
 * Kaggle competition on the Titanic dataset [[link](https://www.kaggle.com/competitions/titanic)]
-* 
