@@ -14,8 +14,8 @@ For week 5 and week 6, we will delve into the critical processes of data prepara
 
 ## Topics
 Here are the topics we are going to cover
-* [ ] **Data Exploration** - We will examine the techniques for summarizing datasets, identifying patterns, and detecting anomalies.
-* [ ] **Feature Engineering** - We will explore methods to create meaningful features from raw data, such as encoding categorical variables, scaling numerical features, and generating new features from existing ones (including interaction terms, etc.)
+* [x] **Data Exploration** - We will examine the techniques for summarizing datasets, identifying patterns, and detecting anomalies.
+* [x] **Feature Engineering** - We will explore methods to create meaningful features from raw data, such as encoding categorical variables, scaling numerical features, and generating new features from existing ones (including interaction terms, etc.)
 
 ## Course materials
 * slides [[link](https://docs.google.com/presentation/d/18DgVRm_W9wDZmyV_sTMqh-bYU-Ak_Ln7OfteWp2Lyk8/edit?usp=sharing)]
