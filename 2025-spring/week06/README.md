@@ -4,18 +4,16 @@
 **Table of Content**
 - [Week 06: Model Evaluations](#week-06-model-evaluations)
   - [Objectives](#objectives)
+- [Overview](#overview)
   - [Topics](#topics)
   - [Course materials](#course-materials)
   - [Suggested reading](#suggested-reading)
 
 ---
 ## Objectives
-Follow up on the topics from week 5, we will
-* Streamline the data preparation process
-* Train a base algorithm on the prepared data
-* Evaluate the base algorithm
-  * We will go over some basic strategies and tools on model evaluation
-* Apply different algorithms and evalute them
+
+# Overview
+In our last class, we explored the Titanic dataset, examined it from multiple perspectives, and applied various feature engineering techniques to enhance its explanatory variables. Today, we will continue working with the Titanic dataset, focusing on model training and evaluation techniques to gain deeper insights into predictive modeling.
 
 ## Topics
 Here are the topics we are going to cover
@@ -26,6 +24,5 @@ Here are the topics we are going to cover
 * slides [[link](TBD)]
 
 ## Suggested reading
-* TBD
-* Online resources
-* TBD
+* Model evaluation techniques in Machine Learning [[link](https://medium.com/@fatmanurkutlu1/model-evaluation-techniques-in-machine-learning-8cd88deb8655)]
+* 
