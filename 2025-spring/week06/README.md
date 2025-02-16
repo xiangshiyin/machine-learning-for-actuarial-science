@@ -21,8 +21,9 @@ Here are the topics we are going to cover
 
 
 ## Course materials
-* slides [[link](TBD)]
+* slides [[link](https://docs.google.com/presentation/d/1lRniz54es16Shw6Zn6a0gxsxGfwZYgDiTJmqiMt126g/edit?usp=sharing)]
 
 ## Suggested reading
+* How to evaluate Machine Learning algorithms [[link](https://machinelearningmastery.com/how-to-evaluate-machine-learning-algorithms/)]
 * Model evaluation techniques in Machine Learning [[link](https://medium.com/@fatmanurkutlu1/model-evaluation-techniques-in-machine-learning-8cd88deb8655)]
-* 
+* Metrics to evaluate Machine Learning algotirhms in Python [[link](https://machinelearningmastery.com/metrics-evaluate-machine-learning-algorithms-python/)]
