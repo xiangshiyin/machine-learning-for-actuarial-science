@@ -31,6 +31,7 @@ Here are the topics we are going to cover
 ## Suggested reading
 * How to evaluate Machine Learning algorithms [[link](https://machinelearningmastery.com/how-to-evaluate-machine-learning-algorithms/)]
 * Model evaluation techniques in Machine Learning [[link](https://medium.com/@fatmanurkutlu1/model-evaluation-techniques-in-machine-learning-8cd88deb8655)]
+* Metrics to evaluate Machine Learning algorithms in Python [[link](https://machinelearningmastery.com/metrics-evaluate-machine-learning-algorithms-python/)]
 * A gentle introduction to ensemble learning algorithms [[link](https://machinelearningmastery.com/tour-of-ensemble-learning-algorithms/)]
 * AutoML
   * **FLAML** - https://github.com/microsoft/FLAML/tree/main
