@@ -17,12 +17,12 @@ In our last class, we explored the Titanic dataset, examined it from multiple pe
 
 ## Topics
 Here are the topics we are going to cover
-* [ ] Streamline the data preparation process
-* [ ] AutoML exploration
-* [ ] Model evaluation
-  * [ ] Classification problems
-  * [ ] Regression problems
-* [ ] Model interpretations
+* [x] Streamline the data preparation process
+* [x] AutoML exploration
+* [x] Model evaluation
+  * [x] Classification problems
+  * [x] Regression problems
+* [x] Model interpretations
 
 
 ## Course materials
