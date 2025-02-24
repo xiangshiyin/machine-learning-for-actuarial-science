@@ -15,7 +15,10 @@ Time series modeling is the cornerstone for financial risk managment since finan
 ## Topics
 Here are the topics we are going to cover
 * [ ] Classical time series modeling approaches
-* [ ] Machine learning approaches
+* [ ] Other Machine learning approaches
+  * [ ] `prophet`
+  * [ ] Frame the time series as a supervised learning problem
+  * [ ] RNN & LSTM - the high level idea
 
 
 ## Course materials
@@ -32,3 +35,4 @@ Here are the topics we are going to cover
 * Understaning LSTM [[link](https://colah.github.io/posts/2015-08-Understanding-LSTMs/)]
 * Understanding LSTM and its diagrams [[link](https://blog.mlreview.com/understanding-lstm-and-its-diagrams-37e2f46f1714)]
 * The Unreasonable Effectiveness of Recurrent Neural Networks [[link](https://karpathy.github.io/2015/05/21/rnn-effectiveness/)]
+* Develop LSTM model for time series forecasting [[link](https://machinelearningmastery.com/how-to-develop-lstm-models-for-time-series-forecasting/)]
