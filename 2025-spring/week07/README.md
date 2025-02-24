@@ -14,7 +14,8 @@ Time series modeling is the cornerstone for financial risk managment since finan
 
 ## Topics
 Here are the topics we are going to cover
-* [ ] TBD
+* [ ] Classical time series modeling approaches
+* [ ] Machine learning approaches
 
 
 ## Course materials
@@ -25,3 +26,5 @@ Here are the topics we are going to cover
 * Forecasting: Principles and Practice [[link](https://otexts.com/fpp3/)]
 * Nasdaq Data Link [[link](https://docs.data.nasdaq.com/docs/python)]
 * Yahoo Finance data [[link](https://github.com/ranaroussi/yfinance)]
+* Facebook's `prophet` [[link](https://facebook.github.io/prophet/)]
+* Convert a time series to a supervised learning problem [[link](https://machinelearningmastery.com/convert-time-series-supervised-learning-problem-python/)]

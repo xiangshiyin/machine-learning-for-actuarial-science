@@ -20,6 +20,7 @@ flaml = {extras = ["automl"], version = "^2.3.3"}
 nasdaq-data-link = "^1.0.4"
 python-dotenv = "^1.0.1"
 yfinance = "^0.2.54"
+prophet = "^1.1.6"
 
 
 [build-system]
