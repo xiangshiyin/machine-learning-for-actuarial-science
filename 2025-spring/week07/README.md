@@ -22,6 +22,7 @@ Here are the topics we are going to cover
 * slides [[link](TBD)]
 
 ## Suggested reading
+* Chapter 2-3 of **Machine Learning for Financial Risk Management with Python**
 * Time Series data with Pandas [[link](https://github.com/xiangshiyin/data-programming-with-python/tree/main/2023-fall/2023-10-10)]
 * Forecasting: Principles and Practice [[link](https://otexts.com/fpp3/)]
 * Nasdaq Data Link [[link](https://docs.data.nasdaq.com/docs/python)]
