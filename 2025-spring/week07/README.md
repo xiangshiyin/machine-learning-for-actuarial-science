@@ -29,3 +29,6 @@ Here are the topics we are going to cover
 * Yahoo Finance data [[link](https://github.com/ranaroussi/yfinance)]
 * Facebook's `prophet` [[link](https://facebook.github.io/prophet/)]
 * Convert a time series to a supervised learning problem [[link](https://machinelearningmastery.com/convert-time-series-supervised-learning-problem-python/)]
+* Understaning LSTM [[link](https://colah.github.io/posts/2015-08-Understanding-LSTMs/)]
+* Understanding LSTM and its diagrams [[link](https://blog.mlreview.com/understanding-lstm-and-its-diagrams-37e2f46f1714)]
+* The Unreasonable Effectiveness of Recurrent Neural Networks [[link](https://karpathy.github.io/2015/05/21/rnn-effectiveness/)]
