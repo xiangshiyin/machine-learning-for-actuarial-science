@@ -19,7 +19,7 @@ Here are the topics we are going to cover
 
 
 ## Course materials
-* slides [[link](TBD)]
+* slides [[link](https://docs.google.com/presentation/d/1hwb1COn2AkO6vMfCkYqsm9nGIzFl8HUrJr5qNgB00gw/edit?usp=sharing)]
 
 ## Suggested reading
 * Chapter 2-3 of **Machine Learning for Financial Risk Management with Python**
