@@ -14,11 +14,11 @@ Time series modeling is the cornerstone for financial risk managment since finan
 
 ## Topics
 Here are the topics we are going to cover
-* [ ] Classical time series modeling approaches
-* [ ] Other Machine learning approaches
-  * [ ] `prophet`
-  * [ ] Frame the time series as a supervised learning problem
-  * [ ] RNN & LSTM - the high level idea
+* [x] Classical time series modeling approaches
+* [x] Other Machine learning approaches
+  * [x] `prophet`
+  * [x] Frame the time series as a supervised learning problem
+  * [x] RNN & LSTM - the high level idea
 
 
 ## Course materials
