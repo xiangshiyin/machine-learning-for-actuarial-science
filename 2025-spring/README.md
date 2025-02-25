@@ -7,7 +7,7 @@
 | 05   | 2025-02-10 | Data Exploration and Feature Engineering    | [link](./week05/) |
 | 06   | 2025-02-17 | Evaluating Model Performance                | [link](./week06/) |
 | 07   | 2025-02-24 | Time Series Modeling                        | [link](./week07/) |
-| 08   | 2025-03-03 | Credit Risk Modeling                        |                   |
+| 08   | 2025-03-03 | Credit Risk Modeling                        | [link](./week08/) |
 | 09   | 2025-03-10 | Insurance Claim Predictions                 |                   |
 | 10   | 2025-03-17 | (No Class) *Spring Break*                   |                   |
 | 11   | 2025-03-24 | Fraud Detections                            |                   |
