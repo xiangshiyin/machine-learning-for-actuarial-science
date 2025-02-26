@@ -25,3 +25,4 @@ Here are the topics we are going to cover
 * `scikit-learn`'s introduction to data transformations [[link](https://scikit-learn.org/stable/data_transforms.html)]
 * Kaggle competition on the Titanic dataset [[link](https://www.kaggle.com/competitions/titanic)]
 * 5 open source automl tools to kick start your next machine learning project [[link](https://dev.to/meetkern/5-open-source-automl-tools-to-kick-start-your-next-machine-learning-project-4k35)]
+* Machine Learning crash course [[link](https://developers.google.com/machine-learning/crash-course/prereqs-and-prework)]
