@@ -1,4 +1,5 @@
-FROM quay.io/jupyter/base-notebook:latest
+# FROM quay.io/jupyter/base-notebook:latest
+FROM quay.io/jupyter/tensorflow-notebook:latest
 
 COPY requirements.txt .
 

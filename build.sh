@@ -1,2 +1,4 @@
 #!/bin/bash
-docker build -t mlcourse-image .
+
+docker rmi $(docker images -q mlcourse-image) -f
+docker build -t mlcourse-image:latest .
