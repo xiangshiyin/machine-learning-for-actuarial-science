@@ -25,3 +25,5 @@ Here are the topics we are going to cover
 ## Suggested reading
 * Chapter 6 of **Machine Learning for Financial Risk Management with Python**
 * How to build credit risk models using Machine Learning? [[link](https://www.leewayhertz.com/build-credit-risk-models-using-machine-learning/)]
+* `k-means` clustering in `scikit-learn` [[doc](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html)]
+  * Optimize the `k` value [[doc](https://scikit-learn.org/stable/auto_examples/cluster/plot_kmeans_silhouette_analysis.html#sphx-glr-auto-examples-cluster-plot-kmeans-silhouette-analysis-py)]
