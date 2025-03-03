@@ -17,10 +17,11 @@ Here are the topics we are going to cover
 * [ ] Recap on `prophet` and `LSTM` examples
 * [ ] K-means clustering
 * [ ] Handling imbalanced dataset
+  * [ ] Model evaluation
 
 
 ## Course materials
-* slides [[link](TBD)]
+* slides [[link](https://docs.google.com/presentation/d/1u7RufSw9CcBS-IDZi5PWlu5XUfrpHTK-S8_yIn7yJpk/edit?usp=sharing)]
 
 ## Suggested reading
 * Chapter 6 of **Machine Learning for Financial Risk Management with Python**
