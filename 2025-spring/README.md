@@ -8,7 +8,7 @@
 | 06   | 2025-02-17 | Evaluating Model Performance                | [link](./week06/) |
 | 07   | 2025-02-24 | Time Series Modeling                        | [link](./week07/) |
 | 08   | 2025-03-03 | Credit Risk Modeling (Part I)               | [link](./week08/) |
-| 09   | 2025-03-10 | Credit Risk Modeling (Part II)              |                   |
+| 09   | 2025-03-10 | Credit Risk Modeling (Part II)              | [link](./week09/) |
 | 10   | 2025-03-17 | (No Class) *Spring Break*                   |                   |
 | 11   | 2025-03-24 | Insurance Claim Predictions                 |                   |
 | 12   | 2025-03-31 | Fraud Detection                             |                   |
