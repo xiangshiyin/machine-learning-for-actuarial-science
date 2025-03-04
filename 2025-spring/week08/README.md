@@ -14,10 +14,10 @@ In this class, we will explore the potential of using machine learning technique
 
 ## Topics
 Here are the topics we are going to cover
-* [ ] Recap on `prophet` and `LSTM` examples
-* [ ] K-means clustering
-* [ ] Handling imbalanced dataset
-  * [ ] Model evaluation
+* [x] Recap on `prophet` and `LSTM` examples
+* [x] K-means clustering
+* [x] Handling imbalanced dataset
+  * [x] Model evaluation
 
 
 ## Course materials
