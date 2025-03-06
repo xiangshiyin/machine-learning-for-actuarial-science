@@ -435,6 +435,9 @@ httpx==0.28.1 ; python_version >= "3.12" and python_version < "4.0" \
 idna==3.10 ; python_version >= "3.12" and python_version < "4.0" \
     --hash=sha256:12f65c9b470abda6dc35cf8e63cc574b1c52b11df2c86030af0ac09b01b13ea9 \
     --hash=sha256:946d195a0d259cbba61165e88e65941f16e9b36ea6ddb97f00452bae8b1287d3
+imbalanced-learn==0.13.0 ; python_version >= "3.12" and python_version < "4.0" \
+    --hash=sha256:7eb5859f7827cb3babfa5789978c22fe36e56527d9c9768df2d864d98d9b40fe \
+    --hash=sha256:d4a8d6372086982350d6de1c7e5b1ed5ece9e41bf93043b4d0e9ea1c422a6606
 importlib-resources==6.5.2 ; python_version >= "3.12" and python_version < "4.0" \
     --hash=sha256:185f87adef5bcc288449d98fb4fba07cea78bc036455dd44c5fc4a2fe78fed2c \
     --hash=sha256:789cfdc3ed28c78b67a06acb8126751ced69a3d5f79c095a98298cd8a760ccec
@@ -1376,6 +1379,9 @@ shellingham==1.5.4 ; python_version >= "3.12" and python_version < "4.0" \
 six==1.17.0 ; python_version >= "3.12" and python_version < "4.0" \
     --hash=sha256:4721f391ed90541fddacab5acf947aa0d3dc7d27b2e1e8eda2be8970586c3274 \
     --hash=sha256:ff70335d468e7eb6ec65b95b99d3a2836546063f63acc5171de367e834932a81
+sklearn-compat==0.1.3 ; python_version >= "3.12" and python_version < "4.0" \
+    --hash=sha256:74f8267613249d599aa3a2f2503af32fa51bce0800b1b0b0a57b52354402454e \
+    --hash=sha256:a8aaf8ef711988cbd63f187c5560b5f16b25df663aaa1d2d0e1291341d339f80
 sniffio==1.3.1 ; python_version >= "3.12" and python_version < "4.0" \
     --hash=sha256:2f6da418d1f1e0fddd844478f41680e794e6051915791a034ff65e5f100525a2 \
     --hash=sha256:f4324edc670a0f49750a81b895f35c3adb843cca46f0530f79fc1babb23789dc

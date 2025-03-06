@@ -21,6 +21,7 @@ nasdaq-data-link = "^1.0.4"
 python-dotenv = "^1.0.1"
 yfinance = "^0.2.54"
 prophet = "^1.1.6"
+imbalanced-learn = "^0.13.0"
 
 
 [build-system]
