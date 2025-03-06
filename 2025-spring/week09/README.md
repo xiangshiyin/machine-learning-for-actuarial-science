@@ -21,6 +21,4 @@ Here are the topics we are going to cover
 * slides [[link](TBD)]
 
 ## Suggested reading
-* TBD
-* Online resources
-* TBD
+* SMOTE: Synthetic Minority Over-sampling Technique [[link](https://arxiv.org/abs/1106.1813)]
