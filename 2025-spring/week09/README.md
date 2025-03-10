@@ -27,3 +27,4 @@ Here are the topics we are going to cover
 * SMOTE for imbalanced data [[link](https://machinelearningmastery.com/smote-oversampling-for-imbalanced-classification/)]
 * ROC-AUC vs. PR-AUC [[link](https://machinelearningmastery.com/roc-curves-and-precision-recall-curves-for-imbalanced-classification/)]
 * Ensemble models [[link](https://scikit-learn.org/stable/modules/ensemble.html#ensemble)]
+* Chapter 6 of Machine Learning for Financial Risk Management with Python
