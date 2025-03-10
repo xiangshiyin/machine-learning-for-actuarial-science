@@ -19,7 +19,7 @@ Here are the topics we are going to cover
 
 
 ## Course materials
-* slides [[link](TBD)]
+* slides [[link](https://docs.google.com/presentation/d/1_ESk4Ss3KFWtIfZHH9A3qX9UBmV42FQOikcjKknTMvQ)]
 
 ## Suggested reading
 * SMOTE: Synthetic Minority Over-sampling Technique [[link](https://arxiv.org/abs/1106.1813)]
