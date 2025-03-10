@@ -6,6 +6,7 @@
 - [What](#what)
 - [Deliverables/Submissions](#deliverablessubmissions)
 - [Grading Rubrics \[link\]](#grading-rubrics-link)
+- [Suggested Topics \[link\]](#suggested-topics-link)
 
 # Requirement
 * Total students in class: 40
@@ -59,3 +60,5 @@
 Each team member's contribution on the project (**Required**)
 
 # Grading Rubrics [[link](./rubrics.md)]
+
+# Suggested Topics [[link](./topics.md)]
