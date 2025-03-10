@@ -49,6 +49,7 @@
       * `Streamlit` [[link](https://streamlit.io/)]
 
 # Deliverables/Submissions 
+* Deadline: **23:59PM @ 2025-05-01 EST**
 * Source code
   * Jupyter notebook file containing all the source code and results you used in your data analysis and modeling
   * Please make sure your code is cleaned, well-documented, and easy to follow
