@@ -14,7 +14,8 @@ In this class, we will continue the discussion on dealing with imbalanced datase
 
 ## Topics
 Here are the topics we are going to cover
-* [ ] TBD
+* [ ] Resampling methods for imbalanced dataset
+* [ ] Demo - German Credit Data
 
 
 ## Course materials
