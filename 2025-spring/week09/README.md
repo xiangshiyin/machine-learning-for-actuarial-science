@@ -23,3 +23,5 @@ Here are the topics we are going to cover
 
 ## Suggested reading
 * SMOTE: Synthetic Minority Over-sampling Technique [[link](https://arxiv.org/abs/1106.1813)]
+* ROC-AUC vs. PR-AUC [[link](https://machinelearningmastery.com/roc-curves-and-precision-recall-curves-for-imbalanced-classification/)]
+* Ensemble models [[link](https://scikit-learn.org/stable/modules/ensemble.html#ensemble)]
