@@ -23,6 +23,4 @@ Here are the topics we are going to cover
 * slides [[link](TBD)]
 
 ## Suggested reading
-* TBD
-* Online resources
-* TBD
+* Machine Learning for an explainable cost prediction of medical insurance [[link](https://www.sciencedirect.com/science/article/pii/S2666827023000695?via%3Dihub)]
