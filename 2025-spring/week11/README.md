@@ -1,8 +1,8 @@
-# Week 11: Case Study: Insurance Claims Predictions
+# Week 11: Ensemble Learning Methods
 ---
 
 **Table of Content**
-- [Week 11: Case Study: Insurance Claims Predictions](#week-11-case-study-insurance-claims-predictions)
+- [Week 11: Ensemble Learning Methods](#week-11-ensemble-learning-methods)
   - [Objectives](#objectives)
   - [Topics](#topics)
   - [Course materials](#course-materials)
@@ -23,4 +23,5 @@ Here are the topics we are going to cover
 * slides [[link](TBD)]
 
 ## Suggested reading
+* **Chapter 7** of *Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow, 3rd Edition*
 * Machine Learning for an explainable cost prediction of medical insurance [[link](https://www.sciencedirect.com/science/article/pii/S2666827023000695?via%3Dihub)]
