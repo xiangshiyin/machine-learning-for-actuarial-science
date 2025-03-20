@@ -10,13 +10,17 @@
 
 ---
 ## Objectives
-In this week, we will wrap up the previous demo of credit risk predictions, cover some additional topics on ensemble learning, and start a new case study on insurance claim related prediction problem.
+In this week, we will wrap up the previous demo of credit risk predictions, cover some additional topics on ensemble learning and explore the landscape of ensemble learning methods.
 
 ## Topics
 Here are the topics we are going to cover
 * [ ] Ensemble learning
-* [ ] Machine Learning applications in insurance industry
-  * [ ] Case study: Insurance Claims Predictions
+  * [ ] Voting
+  * [ ] Bagging
+  * [ ] Boosting
+    * [ ] Adaboost
+    * [ ] Gradient Boosting
+  * [ ] Stacking
 
 
 ## Course materials
@@ -24,4 +28,6 @@ Here are the topics we are going to cover
 
 ## Suggested reading
 * **Chapter 7** of *Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow, 3rd Edition*
+* Introduction to Boosted Trees [[link](https://xgboost.readthedocs.io/en/stable/tutorials/model.html)]
+* Understanding Gradient Boosting as a Gradient Descent [[link](https://nicolas-hug.com/blog/gradient_boosting_descent)]
 * Machine Learning for an explainable cost prediction of medical insurance [[link](https://www.sciencedirect.com/science/article/pii/S2666827023000695?via%3Dihub)]
