@@ -24,7 +24,7 @@ Here are the topics we are going to cover
 
 
 ## Course materials
-* slides [[link](TBD)]
+* slides [[link](https://docs.google.com/presentation/d/1QadohAVXLwkB3cVYdMKKjUOPpKmbz3F1n4vYPnDTuzM/edit?usp=sharing)]
 
 ## Suggested reading
 * **Chapter 7** of *Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow, 3rd Edition*
