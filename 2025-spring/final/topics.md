@@ -1,29 +1,29 @@
 # Suggested Topics
 
 - [Suggested Topics](#suggested-topics)
-  - [Medical Insurance Premium Prediction](#medical-insurance-premium-prediction)
+  - [Project 01: Medical Insurance Premium Prediction](#project-01-medical-insurance-premium-prediction)
     - [Idea](#idea)
     - [Dataset](#dataset)
-  - [Loan Default Prediction](#loan-default-prediction)
+  - [Project 02: Loan Default Prediction](#project-02-loan-default-prediction)
     - [Idea](#idea-1)
     - [Dataset](#dataset-1)
       - [Key Variables](#key-variables)
-  - [Lending Club Dataset](#lending-club-dataset)
+  - [Project 03: Lending Club Dataset](#project-03-lending-club-dataset)
     - [Idea](#idea-2)
     - [Dataset](#dataset-2)
     - [Caveat](#caveat)
-  - [Fraud Detection with Synthetic Financial Data](#fraud-detection-with-synthetic-financial-data)
+  - [Project 04: Fraud Detection with Synthetic Financial Data](#project-04-fraud-detection-with-synthetic-financial-data)
     - [Idea](#idea-3)
     - [Dataset](#dataset-3)
       - [Caveat](#caveat-1)
-  - [Time Series Forecasting - A Survey of Classical Stats Models vs. Modern ML Approaches](#time-series-forecasting---a-survey-of-classical-stats-models-vs-modern-ml-approaches)
+  - [Project 05: Time Series Forecasting - A Survey of Classical Stats Models vs. Modern ML Approaches](#project-05-time-series-forecasting---a-survey-of-classical-stats-models-vs-modern-ml-approaches)
     - [Idea](#idea-4)
     - [Dataset](#dataset-4)
-  - [AutoML - A Survey of available AutoML techniques](#automl---a-survey-of-available-automl-techniques)
+  - [Project 06: AutoML - A Survey of available AutoML techniques](#project-06-automl---a-survey-of-available-automl-techniques)
     - [Idea](#idea-5)
 
 
-## Medical Insurance Premium Prediction
+## Project 01: Medical Insurance Premium Prediction
 ### Idea
 - Analyze the medical insurance premium dataset provided
 - Build ML models to predict the medical insurance premium based upon the given dataset
@@ -33,7 +33,7 @@
 [[Link](https://www.kaggle.com/datasets/tejashvi14/medical-insurance-premium-prediction/data)]
 
 
-## Loan Default Prediction
+## Project 02: Loan Default Prediction
 ### Idea
 - Analyze the loan default dataset provided
 - Build ML models to predict the loan default based upon the given dataset
@@ -80,7 +80,7 @@ The data set is in panel form and reports origination and performance observatio
 
 </details>
 
-## Lending Club Dataset
+## Project 03: Lending Club Dataset
 ### Idea
 - Analyze the dataset provided
 - Build credit risk models based upon the lending club dataset
@@ -92,7 +92,7 @@ The data set is in panel form and reports origination and performance observatio
 - Figuring out the meaning of all features is a challenge. You may need some research in the lending club website and check some existing discussions on Kaggle [[example](https://www.kaggle.com/datasets/wordsforthewise/lending-club/discussion/170691)].
 - Accepted and rejected loans are in separate csv files!
 
-## Fraud Detection with Synthetic Financial Data
+## Project 04: Fraud Detection with Synthetic Financial Data
 ### Idea
 - Analyze the dataset provided
 - Build ML models to predict fraudulent transactions
@@ -104,7 +104,7 @@ The data set is in panel form and reports origination and performance observatio
 #### Caveat
 - The dataset is synthetic data created via a simulator Paysim
 
-## Time Series Forecasting - A Survey of Classical Stats Models vs. Modern ML Approaches
+## Project 05: Time Series Forecasting - A Survey of Classical Stats Models vs. Modern ML Approaches
 ### Idea
 We only discussed a small subset of time series forecasting techniques in our class. It'll be beneficial for you to do some first hand explorations and research into this domain and see if you can find something new.
 - Fetch and analyze selected stocks or stock indecies over time
@@ -114,7 +114,7 @@ We only discussed a small subset of time series forecasting techniques in our cl
 ### Dataset
 [[Yahoo Finance API](https://github.com/ranaroussi/yfinance)]
 
-## AutoML - A Survey of available AutoML techniques
+## Project 06: AutoML - A Survey of available AutoML techniques
 ### Idea
 We only discussed the AutoML technique from high level and demonstrated one AutoML tool `FLAML` in our class. It'll be beneficial to do some further research into other available AutoML techniques
 - Research and explore different AutoML techniques/tools with some first hand experiments
