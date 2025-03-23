@@ -21,6 +21,8 @@
     - [Dataset](#dataset-4)
   - [Project 06: AutoML - A Survey of available AutoML techniques](#project-06-automl---a-survey-of-available-automl-techniques)
     - [Idea](#idea-5)
+  - [Project 07: Build a ChatBot utilizing LLM technique](#project-07-build-a-chatbot-utilizing-llm-technique)
+    - [Idea](#idea-6)
 
 
 ## Project 01: Medical Insurance Premium Prediction
@@ -120,3 +122,9 @@ We only discussed the AutoML technique from high level and demonstrated one Auto
 - Research and explore different AutoML techniques/tools with some first hand experiments
 - Discuss advantages and disadvantages of each approach, identify their capabilities and limitations
 - Open question: can we fully rely on AutoML techniques?
+
+## Project 07: Build a ChatBot utilizing LLM technique
+### Idea
+Leverage available LLM models to build a chatbot to help summarize and answer questions about a given insurance policy document
+- You can use any open or closed sourced LLM models (OpenAI GPT models, Antropic Claude, Meta's Llama, etc.)
+- Compare the performance of different LLM models
