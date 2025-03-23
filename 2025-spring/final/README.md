@@ -3,6 +3,7 @@
 
 - [Final Project](#final-project)
 - [Requirement](#requirement)
+- [LLM Policies](#llm-policies)
 - [What](#what)
 - [Deliverables/Submissions](#deliverablessubmissions)
 - [Grading Rubrics \[link\]](#grading-rubrics-link)
@@ -20,6 +21,13 @@
     * Suggested project topics published.
   * **2025-04-07**: Project topics finalized and approved.
   * **2025-04-28**: **Final project presentation.**
+
+# LLM Policies
+- Although the general expectation is to avoid using LLMs for the project, specific use cases may be permitted if discussed and approved by the instructor.
+- For approved LLM use cases, these additional deliverables are expected
+  - Share the detailed usage of LLM in your project, including where & why
+  - Share the learning curve and experience of using LLM
+  - Share the tradeoffs of using LLM
 
 # What
 * Solve a real-world problem in the domain of actuarial science and risk management using machine learning techniques
