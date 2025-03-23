@@ -1,5 +1,19 @@
 # Suggested Topics
 
+- [Suggested Topics](#suggested-topics)
+  - [Medical Insurance Premium Prediction](#medical-insurance-premium-prediction)
+    - [Idea](#idea)
+    - [Dataset](#dataset)
+  - [Loan Default Prediction](#loan-default-prediction)
+    - [Idea](#idea-1)
+    - [Dataset](#dataset-1)
+      - [Key Variables](#key-variables)
+  - [Lending Club Dataset](#lending-club-dataset)
+    - [Idea](#idea-2)
+    - [Dataset](#dataset-2)
+    - [Caveat](#caveat)
+
+
 ## Medical Insurance Premium Prediction
 ### Idea
 - Build ML models to predict the medical insurance premium based upon the given dataset
