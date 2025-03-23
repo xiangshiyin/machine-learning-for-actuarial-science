@@ -55,3 +55,15 @@ The data set is in panel form and reports origination and performance observatio
 
 </details>
 
+## Lending Club Dataset
+### Idea
+- Build credit risk models based upon the lending club dataset
+
+### Dataset
+[[link](https://www.kaggle.com/datasets/wordsforthewise/lending-club)]
+
+### Caveat
+- Figuring out the meaning of all features is a challenge. You may need some research in the lending club website and check some existing discussions on Kaggle [[example](https://www.kaggle.com/datasets/wordsforthewise/lending-club/discussion/170691)].
+- Accepted and rejected loans are in separate csv files!
+
+
