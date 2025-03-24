@@ -20,6 +20,8 @@ Here are the topics we are going to cover
   * [ ] Boosting
     * [ ] Adaboost
     * [ ] Gradient Boosting
+    * [ ] XgBoost
+    * [ ] LightGBM
   * [ ] Stacking
 
 
@@ -31,3 +33,5 @@ Here are the topics we are going to cover
 * Introduction to Boosted Trees [[link](https://xgboost.readthedocs.io/en/stable/tutorials/model.html)]
 * Understanding Gradient Boosting as a Gradient Descent [[link](https://nicolas-hug.com/blog/gradient_boosting_descent)]
 * Machine Learning for an explainable cost prediction of medical insurance [[link](https://www.sciencedirect.com/science/article/pii/S2666827023000695?via%3Dihub)]
+* LightGBM [[doc](https://lightgbm.readthedocs.io/en/stable/Features.html)]
+* LightGBM vs. XgBoost [[link](https://medium.com/@data-overload/comparing-xgboost-and-lightgbm-a-comprehensive-analysis-9b80b7b0079b#:~:text=XGBoost%3A%20Builds%20trees%20level%2Dwise,shallower%20tree%20compared%20to%20XGBoost.)]
