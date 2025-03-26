@@ -65,7 +65,7 @@
 * A brief report on the project
   * Background information of the project/dataset/ideas (**Required**)
   * Illustration on the methodologies and findings from the data analysis (**Required**)
-Each team member's contribution on the project (**Required**)
+  * Each team member's contribution on the project (**Required**)
 
 # Grading Rubrics [[link](./rubrics.md)]
 
