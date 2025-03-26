@@ -11,7 +11,7 @@
 | 09   | 2025-03-10 | Credit Risk Modeling (Part II)              | [link](./week09/) |
 | 10   | 2025-03-17 | (No Class) *Spring Break*                   |                   |
 | 11   | 2025-03-24 | Ensemble Learning Methods                   | [link](./week11/) |
-| 12   | 2025-03-31 | Insurance Claim Predictions                 |                   |
+| 12   | 2025-03-31 | Model Serving Approaches                    | [link](./week12/) |
 | 13   | 2025-04-07 | NLP and Information Extraction (part I)     |                   |
 | 14   | 2025-04-14 | NLP and Information Extraction (part II)    |                   |
 | 15   | 2025-04-21 | GPT Models and Prompt Engineering           |                   |
