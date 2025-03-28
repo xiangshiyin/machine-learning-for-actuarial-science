@@ -6,8 +6,10 @@
   - [Objectives](#objectives)
   - [Topic](#topic)
     - [Bias-Variance Tradeoff](#bias-variance-tradeoff)
+    - [`XgBoost`](#xgboost)
   - [Course materials](#course-materials)
   - [Suggested reading](#suggested-reading)
+    - [`XgBoost`](#xgboost-1)
 
 ---
 ## Objectives
@@ -54,12 +56,27 @@ So essentially, any prediction error can be decomposed to `bias`, `variance` and
 
 ![](https://www.cs.cornell.edu/courses/cs4780/2018fa/lectures/images/bias_variance/bullseye.png)
 
+### `XgBoost`
+`XgBoost` has [built-in regularization](https://xgboost.readthedocs.io/en/stable/tutorials/model.html#objective-function-training-loss-regularization) to control the bias-variance tradeoff.
+$$
+obj(\theta) = L(\theta) + \Omega(\theta)
+$$
+where
+- $L(\theta)$ is the training loss function, primarily contributing to the model bias
+- $\Omega(\theta)$ is the regularization term, primarily contributing to the model variance
+- The training loss measure how predictive the model is with respect to the training data
+  - For regression problems, a common choice is the squared loss 
+    - $L(\theta) = \sum_i (y_i - \hat{y}_i)^2$
+  - For classification problems, a common choice is the log loss 
+    - $L(\theta) = \sum_i [y_i log(1 + e^{\hat{y_i}}) + (1 - y_i) log(1 + e^{\hat{y_i}})]$
 
+![](https://raw.githubusercontent.com/dmlc/web-data/master/xgboost/model/step_fit.png)
 
 ## Course materials
 * slides [[link](https://docs.google.com/presentation/d/13vqPczJpCipRyvEPclbzyjND77ilX1Fa$$EnsBRjSMQ_E)]
 
 ## Suggested reading
-* TBD
-* Online resources
-* TBD
+### `XgBoost`
+* Introduction to Boosted Trees [[link](https://xgboost.readthedocs.io/en/stable/tutorials/model.html)]
+* Notes on parameter tuning [[link](https://xgboost.readthedocs.io/en/stable/tutorials/param_tuning.html)]
+* Parameters [[link](https://xgboost.readthedocs.io/en/stable/parameter.html)]
