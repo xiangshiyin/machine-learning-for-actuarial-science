@@ -41,12 +41,13 @@ E[ (Y - \hat{Y})^2 ] \\
 $$
 
 Since $f(X) - \bar{f}(X)$ is constant and $E(\bar{f}(X) - \hat{f}(X))$ equals 0, the prediction error can be rewritten as
+
 $$
 \begin{array}{l}
 E[ (Y - \hat{Y})^2 ] \\
-= E[(f(X) - \bar{f}(X))^2] + E[(\bar{f}(X) - \hat{f}(X))^2] + \epsilon^2
-\end{array} \\
+= E[(f(X) - \bar{f}(X))^2] + E[(\bar{f}(X) - \hat{f}(X))^2] + \epsilon^2 \\
 = {bias}^2 + {variance} + \epsilon^2
+\end{array}
 $$
 
 So essentially, any prediction error can be decomposed to `bias`, `variance` and some `irreducible error`.
@@ -58,9 +59,11 @@ So essentially, any prediction error can be decomposed to `bias`, `variance` and
 
 ### `XgBoost`
 `XgBoost` has [built-in regularization](https://xgboost.readthedocs.io/en/stable/tutorials/model.html#objective-function-training-loss-regularization) to control the bias-variance tradeoff.
+
 $$
 obj(\theta) = L(\theta) + \Omega(\theta)
 $$
+
 where
 - $L(\theta)$ is the training loss function, primarily contributing to the model bias
 - $\Omega(\theta)$ is the regularization term, primarily contributing to the model variance
