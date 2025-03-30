@@ -11,6 +11,7 @@
   - [Course materials](#course-materials)
   - [Suggested reading](#suggested-reading)
     - [`XgBoost`](#xgboost-1)
+    - [`LightGBM`](#lightgbm)
 
 ---
 ## Objectives
@@ -122,3 +123,7 @@ $$
 * Introduction to Boosted Trees [[link](https://xgboost.readthedocs.io/en/stable/tutorials/model.html)]
 * Notes on parameter tuning [[link](https://xgboost.readthedocs.io/en/stable/tutorials/param_tuning.html)]
 * Parameters [[link](https://xgboost.readthedocs.io/en/stable/parameter.html)]
+### `LightGBM`
+* Official documentation [[link](https://lightgbm.readthedocs.io/en/latest/index.html)]
+* Features [[link](https://lightgbm.readthedocs.io/en/latest/Features.html)]
+* Parameter tuning [[link](https://lightgbm.readthedocs.io/en/latest/Parameters-Tuning.html)]
