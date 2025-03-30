@@ -7,6 +7,7 @@
   - [Topic](#topic)
     - [Bias-Variance Tradeoff](#bias-variance-tradeoff)
     - [`XgBoost`](#xgboost)
+      - [Regularization](#regularization)
   - [Course materials](#course-materials)
   - [Suggested reading](#suggested-reading)
     - [`XgBoost`](#xgboost-1)
@@ -74,6 +75,42 @@ where
     - $L(\theta) = \sum_i [y_i log(1 + e^{\hat{y_i}}) + (1 - y_i) log(1 + e^{\hat{y_i}})]$
 
 ![](https://raw.githubusercontent.com/dmlc/web-data/master/xgboost/model/step_fit.png)
+
+#### Regularization
+The objective function can be simplied as
+$$
+\begin{aligned}
+obj(\theta) &= -\frac{1}{2} \sum_{j=1}^T \frac{G_j^2}{H_j + \lambda} +  \gamma T \\
+\end{aligned}
+$$
+
+where
+- $T$ is the number of trees in the model
+- $\lambda$ is the L2 regularization factor
+- $\gamma$ is the factor penalizing adding new splits to the model
+- $G$ represent the summation of the gradients of the data points in the node
+- $H$ represent the summation of the hessians of the data points in the node
+
+For regression problems, assuming the loss function is the squared loss, $G$ and $H$ can be simplified as
+$$
+\begin{aligned}
+G &= \sum_{i \in I} \frac{\partial L(y_i, \hat{y}_i)}{\partial \hat{y}_i} \\
+&= \sum_{i \in I} (y_i - \hat{y}_i) \\
+
+H &= \sum_{i \in I} \frac{\partial^2 L(y_i, \hat{y}_i)}{\partial \hat{y}_i^2} \\
+&= \sum_{i \in I} 1 \\
+\end{aligned}
+$$
+
+In this case, $G$ is simply the total residuals of the data points in the node, and $H$ is simply the number of data points in the node.
+
+The node splitting can be evaluated via the following objective function
+$$
+\begin{aligned}
+{Grain} = \frac{1}{2} \left[ \frac{G_L^2}{H_L + \lambda} + \frac{G_R^2}{H_R + \lambda} - \frac{(G_L + G_R)^2}{H_L + H_R + \lambda} \right] - \gamma
+\end{aligned}
+$$
+
 
 ## Course materials
 * slides [[link](https://docs.google.com/presentation/d/13vqPczJpCipRyvEPclbzyjND77ilX1Fa$$EnsBRjSMQ_E)]
