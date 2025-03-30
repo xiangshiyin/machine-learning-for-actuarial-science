@@ -78,9 +78,10 @@ where
 
 #### Regularization
 The objective function can be simplied as
+
 $$
 \begin{aligned}
-obj(\theta) &= -\frac{1}{2} \sum_{j=1}^T \frac{G_j^2}{H_j + \lambda} +  \gamma T \\
+obj(\theta) &= -\frac{1}{2} \sum_{j=1}^T \frac{G_j^2}{H_j + \lambda} +  \gamma T
 \end{aligned}
 $$
 
@@ -92,19 +93,20 @@ where
 - $H$ represent the summation of the hessians of the data points in the node
 
 For regression problems, assuming the loss function is the squared loss, $G$ and $H$ can be simplified as
+
+
 $$
 \begin{aligned}
-G &= \sum_{i \in I} \frac{\partial L(y_i, \hat{y}_i)}{\partial \hat{y}_i} \\
-&= \sum_{i \in I} (y_i - \hat{y}_i) \\
-
-H &= \sum_{i \in I} \frac{\partial^2 L(y_i, \hat{y}_i)}{\partial \hat{y}_i^2} \\
-&= \sum_{i \in I} 1 \\
+G = \sum_{i \in I} \frac{\partial L(y_i, \hat{y}_i)}{\partial \hat{y}_i} = \sum_{i \in I} (y_i - \hat{y}_i) \\
+H = \sum_{i \in I} \frac{\partial^2 L(y_i, \hat{y}_i)}{\partial \hat{y}_i^2} = \sum_{i \in I} 1 \\
 \end{aligned}
 $$
+
 
 In this case, $G$ is simply the total residuals of the data points in the node, and $H$ is simply the number of data points in the node.
 
 The node splitting can be evaluated via the following objective function
+
 $$
 \begin{aligned}
 {Grain} = \frac{1}{2} \left[ \frac{G_L^2}{H_L + \lambda} + \frac{G_R^2}{H_R + \lambda} - \frac{(G_L + G_R)^2}{H_L + H_R + \lambda} \right] - \gamma
