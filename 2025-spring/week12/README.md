@@ -10,8 +10,8 @@
       - [Regularization](#regularization)
   - [Course materials](#course-materials)
   - [Suggested reading](#suggested-reading)
-    - [`XgBoost`](#xgboost-1)
-    - [`LightGBM`](#lightgbm)
+    - [`XgBoost` \[paper\]](#xgboost-paper)
+    - [`LightGBM` \[paper\]](#lightgbm-paper)
 
 ---
 ## Objectives
@@ -119,11 +119,11 @@ $$
 * slides [[link](https://docs.google.com/presentation/d/13vqPczJpCipRyvEPclbzyjND77ilX1Fa$$EnsBRjSMQ_E)]
 
 ## Suggested reading
-### `XgBoost`
+### `XgBoost` [[paper](https://arxiv.org/abs/1603.02754)]
 * Introduction to Boosted Trees [[link](https://xgboost.readthedocs.io/en/stable/tutorials/model.html)]
 * Notes on parameter tuning [[link](https://xgboost.readthedocs.io/en/stable/tutorials/param_tuning.html)]
 * Parameters [[link](https://xgboost.readthedocs.io/en/stable/parameter.html)]
-### `LightGBM`
+### `LightGBM` [[paper](https://proceedings.neurips.cc/paper_files/paper/2017/file/6449f44a102fde848669bdd9eb6b76fa-Paper.pdf)]
 * Official documentation [[link](https://lightgbm.readthedocs.io/en/latest/index.html)]
 * Features [[link](https://lightgbm.readthedocs.io/en/latest/Features.html)]
 * Parameter tuning [[link](https://lightgbm.readthedocs.io/en/latest/Parameters-Tuning.html)]
