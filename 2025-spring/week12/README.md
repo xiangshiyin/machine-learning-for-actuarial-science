@@ -12,6 +12,8 @@
   - [Suggested reading](#suggested-reading)
     - [`XgBoost` \[paper\]](#xgboost-paper)
     - [`LightGBM` \[paper\]](#lightgbm-paper)
+    - [FastAPI \[tutorial\]](#fastapi-tutorial)
+    - [Streamlit \[doc\]](#streamlit-doc)
 
 ---
 ## Objectives
@@ -127,3 +129,5 @@ $$
 * Official documentation [[link](https://lightgbm.readthedocs.io/en/latest/index.html)]
 * Features [[link](https://lightgbm.readthedocs.io/en/latest/Features.html)]
 * Parameter tuning [[link](https://lightgbm.readthedocs.io/en/latest/Parameters-Tuning.html)]
+### FastAPI [[tutorial](https://fastapi.tiangolo.com/tutorial/)]
+### Streamlit [[doc](https://docs.streamlit.io/)]
