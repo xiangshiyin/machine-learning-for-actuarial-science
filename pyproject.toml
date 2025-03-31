@@ -24,6 +24,7 @@ prophet = "^1.1.6"
 imbalanced-learn = "^0.13.0"
 shap = "^0.47.0"
 interpret = "^0.6.9"
+fastapi = {extras = ["standard"], version = "^0.115.12"}
 
 
 [build-system]
