@@ -118,7 +118,7 @@ $$
 
 
 ## Course materials
-* slides [[link](https://docs.google.com/presentation/d/13vqPczJpCipRyvEPclbzyjND77ilX1FaEnsBRjSMQ_E/edit?usp=sharing)]
+* slides [[link](https://docs.google.com/presentation/d/13vqPczJpCipRyvEPclbzyjND77ilX1FaEnsBRjSMQ_E)]
 
 ## Suggested reading
 ### `XgBoost` [[paper](https://arxiv.org/abs/1603.02754)]
