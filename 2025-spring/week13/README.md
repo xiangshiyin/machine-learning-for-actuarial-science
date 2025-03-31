@@ -21,6 +21,5 @@ Here are the topics we are going to cover
 * slides [[link](TBD)]
 
 ## Suggested reading
-* TBD
-* Online resources
-* TBD
+* Introduction to TF-IDF [[link](https://builtin.com/articles/tf-idf)]
+* Document classification with TF-IDF [[link](https://scikit-learn.org/stable/auto_examples/text/plot_document_classification_20newsgroups.html#sphx-glr-auto-examples-text-plot-document-classification-20newsgroups-py)]
