@@ -18,9 +18,8 @@ Here are the topics we are going to cover
 
 
 ## Course materials
-* slides [[link](TBD)]
+* slides [[link](https://docs.google.com/presentation/d/1tuck8AswNhI_F3YbYWsVR0ORKDg-usJkhazFFCgH7PM/edit?usp=sharing)]
 
 ## Suggested reading
-* TBD
-* Online resources
-* TBD
+* A complete guide to Natural Language Processing [[link](https://www.deeplearning.ai/resources/natural-language-processing/)]
+* What is Natural Language Processing? [[link](https://www.datacamp.com/blog/what-is-natural-language-processing)]
