@@ -23,5 +23,7 @@ Here are the topics we are going to cover
 ## Suggested reading
 * A complete guide to Natural Language Processing [[link](https://www.deeplearning.ai/resources/natural-language-processing/)]
 * What is Natural Language Processing? [[link](https://www.datacamp.com/blog/what-is-natural-language-processing)]
-* `Word2Vec` paper [[link](https://research.google/pubs/distributed-representations-of-words-and-phrases-and-their-compositionality/)]
-* `Word2Vec` parameter explained [[link](https://arxiv.org/pdf/1411.2738)]
+* `Word2Vec`
+  * `Word2Vec` paper [[link](https://research.google/pubs/distributed-representations-of-words-and-phrases-and-their-compositionality/)]
+  * `Word2Vec` parameter explained [[link](https://arxiv.org/pdf/1411.2738)]
+  * Legacy Google research blog [[link](https://code.google.com/archive/p/word2vec/)]
