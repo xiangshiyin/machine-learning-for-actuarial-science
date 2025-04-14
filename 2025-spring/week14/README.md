@@ -14,7 +14,10 @@ This week, we will conclude our hands-on demo with `streamlit`, focusing on how 
 
 ## Topics
 Here are the topics we are going to cover
-* [ ] TBD
+* [ ] `streamlit`
+* [ ] What is NLP?
+* [ ] Different use cases of NLP
+* [ ] Typical NLP workflow
 
 
 ## Course materials
@@ -25,5 +28,7 @@ Here are the topics we are going to cover
 * What is Natural Language Processing? [[link](https://www.datacamp.com/blog/what-is-natural-language-processing)]
 * `Word2Vec`
   * `Word2Vec` paper [[link](https://research.google/pubs/distributed-representations-of-words-and-phrases-and-their-compositionality/)]
+  * `Word2Vec` paper explained [[link](https://towardsdatascience.com/word2vec-research-paper-explained-205cb7eecc30/)]
   * `Word2Vec` parameter explained [[link](https://arxiv.org/pdf/1411.2738)]
   * Legacy Google research blog [[link](https://code.google.com/archive/p/word2vec/)]
+  * Loss function in `Word2Vec` [[link](https://datascience.stackexchange.com/questions/38619/interpretation-of-the-loss-function-for-word2vec)]

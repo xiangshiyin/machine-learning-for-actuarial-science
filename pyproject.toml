@@ -26,6 +26,7 @@ shap = "^0.47.0"
 interpret = "^0.6.9"
 fastapi = {extras = ["standard"], version = "^0.115.12"}
 streamlit = "^1.44.0"
+gensim = "^4.3.3"
 
 
 [build-system]
