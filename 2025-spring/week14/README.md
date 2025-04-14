@@ -32,3 +32,7 @@ Here are the topics we are going to cover
   * `Word2Vec` parameter explained [[link](https://arxiv.org/pdf/1411.2738)]
   * Legacy Google research blog [[link](https://code.google.com/archive/p/word2vec/)]
   * Loss function in `Word2Vec` [[link](https://datascience.stackexchange.com/questions/38619/interpretation-of-the-loss-function-for-word2vec)]
+* `GLoVE`
+  * Download the pre-trained word vectors [[link](https://nlp.stanford.edu/projects/glove/)]
+* Pretrained models in `Gensim` [[link](https://radimrehurek.com/gensim/models/word2vec.html#pretrained-models)]
+* Deep Neural Networks for Youtube Recommendations [[link](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/45530.pdf)]
