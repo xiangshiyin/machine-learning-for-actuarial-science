@@ -14,5 +14,5 @@
 | 12   | 2025-03-31 | Model Serving Approaches                    | [link](./week12/) |
 | 13   | 2025-04-07 | NLP and Information Extraction (part I)     | [link](./week13/) |
 | 14   | 2025-04-14 | NLP and Information Extraction (part II)    | [link](./week14/) |
-| 15   | 2025-04-21 | GPT Models and Prompt Engineering           |                   |
-| 16   | 2025-04-28 | Final Project Presentation                  |                   |
+| 15   | 2025-04-21 | GPT Models and Prompt Engineering           | [link](./week15/) |
+| 16   | 2025-04-28 | Final Project Presentation                  | [link](./final/)  |
