@@ -18,7 +18,7 @@ petal_width = st.number_input("Petal Width")
 if st.button("Predict"):
     features = np.array([[sepal_length, sepal_width, petal_length, petal_width]])
     prediction = model.predict(features)[0]
-    st.write(f"Predicted Class: {prediction}")
+    st.write(f"Predicted Label Index: {prediction}")
 
 # # Sample DataFrame (Can be replaced with real data)
 # df = pd.DataFrame(
