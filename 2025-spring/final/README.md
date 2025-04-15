@@ -5,6 +5,7 @@
 - [Requirement](#requirement)
 - [LLM Policies](#llm-policies)
 - [What](#what)
+- [Final Project Presentation](#final-project-presentation)
 - [Deliverables/Submissions](#deliverablessubmissions)
 - [Grading Rubrics \[link\]](#grading-rubrics-link)
 - [Suggested Topics \[link\]](#suggested-topics-link)
@@ -57,6 +58,25 @@
       * `Flask` [[link](https://flask.palletsprojects.com/URL_ADDRESS)]
       * `Streamlit` [[link](https://streamlit.io/)]
 
+
+# Final Project Presentation
+* **Time**: **2025-04-28 @ 7:15PM - 9:45PM EST**
+* **Location**: WebEx Meeting
+* **Format**: 8-minute presentation and 2-minute Q&A
+* **Presentation**:
+  * Expected scope includes
+    * Project background
+    * Project objectives
+    * Key data analysis findings
+    * Key machine learning model training and evaluation results
+    * Key insights and conclusions
+    * Project limitations and future work
+  * If you have built a dashboard and/or API interface, please include a short demo in your presentation
+  * Teams will [follow the order of group numbers](https://docs.google.com/spreadsheets/d/13PV8Z56F4IvtMjSk-7MjvWcBdz24l1MUnjuzucB3RN8) to present their work
+  * It is recommened to have one team member to present the project. Other team members can join in the Q&A session to help answer questions.
+    * If needed, the dashboard and/or API interface can be presented by a separate team member as long as you can control the presentation timing.
+  
+
 # Deliverables/Submissions 
 * Deadline: **23:59PM @ 2025-05-01 EST**
 * Source code
@@ -64,8 +84,10 @@
   * Please make sure your code is cleaned, well-documented, and easy to follow
 * A brief report on the project
   * Background information of the project/dataset/ideas (**Required**)
-  * Illustration on the methodologies and findings from the data analysis (**Required**)
+  * Illustration on the methodologies and **key findings** from the data analysis (**Required**)
   * Each team member's contribution on the project (**Required**)
+  * Please use the report as a format to present the key findings and insights. The recommended length of the report is 3-5 pages.
+  
 
 # Grading Rubrics [[link](./rubrics.md)]
 
