@@ -82,6 +82,10 @@
 * Source code
   * Jupyter notebook file containing all the source code and results you used in your data analysis and modeling
   * Please make sure your code is cleaned, well-documented, and easy to follow
+    * The code should be well aligned with the content of your presentation and report. Please remove any unnecessary code or comments.
+    * In case you went through multiple iterations of code exploration, **please only include the final version of the code**
+    * Please apply proper comments to help guide the reader to understand your code
+  * If you have extra scripts backing the API and/or dashboard interface, please also include them in the submission and apply proper comments as well.
 * A brief report on the project
   * Background information of the project/dataset/ideas (**Required**)
   * Illustration on the methodologies and **key findings** from the data analysis (**Required**)
