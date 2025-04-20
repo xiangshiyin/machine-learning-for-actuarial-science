@@ -10,6 +10,7 @@
 
 ---
 ## Objectives
+In this week, we will continue exploring the landscape of Natural Language Processing (NLP) and further delve into the concept of Prompt Engineering. 
 
 
 ## Topics
@@ -18,9 +19,8 @@ Here are the topics we are going to cover
 
 
 ## Course materials
-* slides [[link](TBD)]
+* slides [[link](https://docs.google.com/presentation/d/1GfHqEHCHanHTEBw06FhjqbswAekkvuMzH_gdnPQgVQA)]
 
 ## Suggested reading
-* TBD
-* Online resources
-* TBD
+* Introduction to OpenAI's GPT Models [[link](https://medium.com/biased-algorithms/introduction-to-openais-gpt-models-1de0d73fa5b5)]
+* Prompt Engineering Guide [[link](https://www.promptingguide.ai/)]
