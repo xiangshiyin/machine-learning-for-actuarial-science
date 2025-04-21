@@ -22,5 +22,11 @@ Here are the topics we are going to cover
 * slides [[link](https://docs.google.com/presentation/d/1GfHqEHCHanHTEBw06FhjqbswAekkvuMzH_gdnPQgVQA)]
 
 ## Suggested reading
+* Zero-shot, One-shot, Few-shot Learning [[link](https://medium.com/@mike_onslow/ai-simplified-exploring-the-basics-of-zero-shot-one-shot-and-few-shot-learning-d46248b5072a)]
 * Introduction to OpenAI's GPT Models [[link](https://medium.com/biased-algorithms/introduction-to-openais-gpt-models-1de0d73fa5b5)]
 * Prompt Engineering Guide [[link](https://www.promptingguide.ai/)]
+* OpenAI API documentation [[link](https://platform.openai.com/docs/api-reference/introduction)]
+  * Playground [[link](https://platform.openai.com/playground)]
+* OpenAI cookbook [[link](https://cookbook.openai.com/)]
+* What are `tokens`? [[link](https://help.openai.com/en/articles/4936856-what-are-tokens-and-how-to-count-them)]
+* Count tokens [[link](https://github.com/openai/openai-cookbook/blob/main/examples/How_to_count_tokens_with_tiktoken.ipynb)]

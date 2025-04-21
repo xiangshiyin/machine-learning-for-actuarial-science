@@ -27,6 +27,8 @@ interpret = "^0.6.9"
 fastapi = {extras = ["standard"], version = "^0.115.12"}
 streamlit = "^1.44.0"
 gensim = "^4.3.3"
+openai = "0.28"
+tiktoken = "^0.9.0"
 
 
 [build-system]
