@@ -15,7 +15,8 @@ In this week, we will continue exploring the landscape of Natural Language Proce
 
 ## Topics
 Here are the topics we are going to cover
-* [ ] TBD
+* [ ] Typical NLP workflows
+* [ ] Prompt Engineering - High-level introduction
 
 
 ## Course materials
@@ -30,3 +31,4 @@ Here are the topics we are going to cover
 * OpenAI cookbook [[link](https://cookbook.openai.com/)]
 * What are `tokens`? [[link](https://help.openai.com/en/articles/4936856-what-are-tokens-and-how-to-count-them)]
 * Count tokens [[link](https://github.com/openai/openai-cookbook/blob/main/examples/How_to_count_tokens_with_tiktoken.ipynb)]
+* `Streamlit`'s session state [[link](https://docs.streamlit.io/develop/api-reference/caching-and-state/st.session_state)]
