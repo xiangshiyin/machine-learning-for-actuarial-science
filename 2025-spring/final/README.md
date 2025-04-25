@@ -43,11 +43,6 @@
   * Build and evaluate machine learning models on the data to help solve the problem
   * Experiment with different models, compare their performance and trade-offs, and find the best model with proper evaluation metrics
   * Interpret the model with proper tools and techniques
-  * Build a dashboard to present the key findings and insights to share with stakeholders 
-    * **Account for 5%** of the final project grade.
-    * Here are the tools you can use to build a dashboard:
-      * `Tableau` 
-      * `Streamlit`
   * Build an API layer to serve the model to downstream applications
     * **Account for 5%** of the final project grade.
     * I/O
@@ -57,6 +52,11 @@
       * `FastAPI` [[link](https://fastapi.tiangolo.com/)]
       * `Flask` [[link](https://flask.palletsprojects.com/URL_ADDRESS)]
       * `Streamlit` [[link](https://streamlit.io/)]
+  * (**BONUS**) Build a dashboard to present the key findings and insights to share with stakeholders 
+    * **Additional 5%** of the final project grade.
+    * Here are the tools you can use to build a dashboard:
+      * `Tableau` 
+      * `Streamlit`
 
 
 # Final Project Presentation
