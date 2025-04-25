@@ -52,8 +52,7 @@
       * `FastAPI` [[link](https://fastapi.tiangolo.com/)]
       * `Flask` [[link](https://flask.palletsprojects.com/URL_ADDRESS)]
       * `Streamlit` [[link](https://streamlit.io/)]
-  * (**BONUS**) Build a dashboard to present the key findings and insights to share with stakeholders 
-    * **Additional 5%** of the final project grade.
+  * (**BONUS**) Build a dashboard to present the key findings and insights to share with stakeholders. 
     * Here are the tools you can use to build a dashboard:
       * `Tableau` 
       * `Streamlit`
