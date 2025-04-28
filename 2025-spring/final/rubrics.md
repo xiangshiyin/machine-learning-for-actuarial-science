@@ -1,7 +1,7 @@
-# Presentation (35 points)
+# Presentation (40 points)
 |         Criteria          | Points |                                                          Notes                                                          |
 | :-----------------------: | :----: | :---------------------------------------------------------------------------------------------------------------------: |
-|      Project Design       |   5    |                                       Clear and well-organized project structure                                        |
+|      Project Design       |   10   |                                       Clear and well-organized project structure                                        |
 |          Clarity          |   5    | Clear articulation of project objectives and goals, well-structured presentation flow, concise and focused explanations |
 |         Relevancy         |   5    |                             Applied data analysis relevant to solving the problems proposed                             |
 | Tools and skills utilized |   10   |                          Utilized appropriate level of python coding and data analytics tools                           |
@@ -27,7 +27,6 @@
 |           Conclusion           |   5    |                       Summarizes the key findings and conclude with a reflection on the project's success or limitations                       |
 
 # Others (10 points)
-|             Criteria             | Points | Notes                                              |
-| :------------------------------: | :----: | :------------------------------------------------- |
-| Dashboard with business insights |   5    | A dashboard with key business insights is included |
-|   API layer to serve ML model    |   5    | An API layer to serve ML model is included         |
+|          Criteria           | Points | Notes                                      |
+| :-------------------------: | :----: | :----------------------------------------- |
+| API layer to serve ML model |   5    | An API layer to serve ML model is included |
