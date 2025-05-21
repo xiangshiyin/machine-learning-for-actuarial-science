@@ -8,7 +8,7 @@
     - [Installations](#installations)
       - [`Anaconda` \[Recommended\]](#anaconda-recommended)
       - [`Python` and `Pip` \[Intermediate Users\]](#python-and-pip-intermediate-users)
-      - [`Python` and `uv` \[Intermediate Users\]](#python-and-uv-intermediate-users)
+      - [`Python` and `uv` \[Advanced Users\]](#python-and-uv-advanced-users)
       - [`Docker` \[If you are interested in containerization\]](#docker-if-you-are-interested-in-containerization)
   - [IDE Setup](#ide-setup)
   - [Online Coding Environment](#online-coding-environment)
@@ -48,7 +48,7 @@ If you prefer to set up a Python environment from scratch, you can install Pytho
     exit
     ```
 
-#### `Python` and `uv` [Intermediate Users]
+#### `Python` and `uv` [Advanced Users]
 If you prefer a faster and more modern approach to Python package management, you can use `uv`, which is a significantly faster alternative to pip. Here are the steps:
 
 1. Install Python 3.9 or later from the [official Python website](https://www.python.org/downloads/).
