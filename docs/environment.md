@@ -7,7 +7,7 @@
     - [General Requirements](#general-requirements)
     - [Installations](#installations)
       - [`Anaconda` \[Recommended\]](#anaconda-recommended)
-      - [`Python` and `Pip` \[Intermediate Users\]](#python-and-pip-intermediate-users)
+      - [`Python` and `uv` \[Intermediate Users\]](#python-and-uv-intermediate-users)
       - [`Python` and `Poetry` \[Advanced Users\]](#python-and-poetry-advanced-users)
       - [`Docker` \[If you are interested in containerization\]](#docker-if-you-are-interested-in-containerization)
   - [IDE Setup](#ide-setup)
@@ -27,26 +27,47 @@ In order to run the code examples in this repository, you need to set up a Pytho
 #### `Anaconda` [Recommended]
 The easiest way to set up a Python environment is to install the [Anaconda Distribution](https://www.anaconda.com/download/success), which comes with all common libraries and tools for data science and machine learning and the Python executable. This should be sufficient for most of the code examples in this repository. Please make sure to choose the correct version for your operating system.
 
-#### `Python` and `Pip` [Intermediate Users]
-If you prefer to set up a Python environment from scratch, you can install Python and the necessary libraries using the `pip` package manager. Below are the steps.
+#### `Python` and `uv` [Intermediate Users]
+If you prefer a faster and more modern approach to Python package management, you can use `uv`, which is a significantly faster alternative to pip. Here are the steps:
+
 1. Install Python 3.9 or later from the [official Python website](https://www.python.org/downloads/).
    - You can also use `pyenv` to manage multiple Python versions on your machine https://github.com/pyenv/pyenv
-2. To install the current version of the required libraries, run the following command in your terminal:
 
+2. Install `uv` using the installation instructions from the [official uv documentation](https://github.com/astral-sh/uv):
     ```bash
-    pip install -r https://raw.githubusercontent.com/xiangshiyin/machine-learning-for-actuarial-science/refs/heads/main/requirements.txt
+    curl -LsSf https://astral.sh/uv/install.sh | sh
     ```
-3. To start the Jupyter Notebook server, run the following command in your terminal:
 
+3. Clone this repository to your local machine.
+
+4. Create and activate a virtual environment:
+    ```bash
+    # Create a new virtual environment in the .venv directory
+    uv venv .venv
+
+    # Activate the virtual environment
+    source .venv/bin/activate  # On Unix/macOS
+    # or
+    .venv\Scripts\activate  # On Windows
+    ```
+
+5. Install dependencies using uv sync:
+    ```bash
+    uv sync
+    ```
+    This command will read your requirements.txt file and install all dependencies in one go. It's significantly faster than traditional pip install.
+
+6. Start the Jupyter Notebook server:
     ```bash
     jupyter notebook
     ```
-4. Open the Jupyter Notebook in your browser and navigate to the desired notebook file to run the code examples.
-5. When you are done, deactivate the virtual environment:
 
+7. When you are done, deactivate the virtual environment:
     ```bash
-    exit
+    deactivate
     ```
+
+Note: `uv sync` is a fast and efficient way to install dependencies. It will automatically read your requirements.txt file and install all dependencies in parallel, which is much faster than sequential installation with pip.
 
 #### `Python` and `Poetry` [Advanced Users]
 If you prefer to set up a Python environment from scratch, you can install Python and the necessary libraries using the `Poetry` package manager. Below are the steps to set up the environment using `Poetry`.
