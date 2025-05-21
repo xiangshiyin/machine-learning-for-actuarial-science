@@ -1,39 +1,44 @@
-[tool.poetry]
-name = "utils"
+[project]
+name = "machine-learning-for-actuarial-science"
 version = "0.1.0"
-description = "RMI 8450 @ GSU"
-authors = ["Xiangshi Yin <piupiuyin@gmail.com>"]
-license = "apache"
+description = "Add your description here"
 readme = "README.md"
+requires-python = ">=3.12.6"
+dependencies = [
+    "fastapi[standard]>=0.115.12",
+    "flaml[automl]>=2.3.4",
+    "gensim>=4.3.3",
+    "imbalanced-learn>=0.13.0",
+    "interpret>=0.6.10",
+    "ipykernel>=6.29.5",
+    "notebook>=7.4.2",
+    "openai>=1.81.0",
+    "prophet>=1.1.6",
+    "python-dotenv>=1.1.0",
+    "scikit-learn>=1.6.1",
+    "seaborn>=0.13.2",
+    "shap>=0.47.2",
+    "statsmodels>=0.14.4",
+    "streamlit>=1.45.1",
+    "tiktoken>=0.9.0",
+    "xlrd>=2.0.1",
+    "yfinance>=0.2.61",
+]
 
-[tool.poetry.dependencies]
-python = "^3.12"
-jinja2 = "^3.1.4"
-typer = {extras = ["all"], version = "^0.12.5"}
-notebook = "^7.3.2"
-ipykernel = "^6.29.5"
-xlrd = "^2.0.1"
-scikit-learn = "^1.6.1"
-statsmodels = "^0.14.4"
-seaborn = "^0.13.2"
-flaml = {extras = ["automl"], version = "^2.3.3"}
-nasdaq-data-link = "^1.0.4"
-python-dotenv = "^1.0.1"
-yfinance = "^0.2.54"
-prophet = "^1.1.6"
-imbalanced-learn = "^0.13.0"
-shap = "^0.47.0"
-interpret = "^0.6.9"
-fastapi = {extras = ["standard"], version = "^0.115.12"}
-streamlit = "^1.44.0"
-gensim = "^4.3.3"
-openai = "0.28"
-tiktoken = "^0.9.0"
-
+[project.scripts]
+utils = "utils.main:app"
 
 [build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+requires = ["hatchling"]
+build-backend = "hatchling.build"
 
-[tool.poetry.scripts]
-utils = "utils.main:app"
+[tool.uv.sources]
+utils = { workspace = true }
+
+[tool.uv.workspace]
+members = [
+    "utils"
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["utils"]
